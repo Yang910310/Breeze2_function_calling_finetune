@@ -1,0 +1,128 @@
+# Breeze2_FC_finetune
+
+本專案的目標是針對 **[PenutChen/Llama-Breeze2-3B-Instruct-Text](https://huggingface.co/PenutChen/Llama-Breeze2-3B-Instruct-Text)** 模型進行 **LoRA 微調 (Fine-tuning)**，並使用 **GTA (General Tool-augmented benchmark for function calling)** 進行評估。  
+
+---
+
+## 📌 專案流程
+
+整體分為三大階段：
+
+1. **生成與清理訓練資料**  
+   - `original_scenarios.py`：準備原始情境資料  
+   - `atomic_task_construct.py`：將情境拆解為原子任務  
+   - `function_generating.py`：為原子任務產生對應函式  
+   - `trajectory_generating.py`：產生互動軌跡資料  
+   - `data_cleaning.py`：資料清理與格式化，輸出 JSONL 格式（每筆資料含有 `messages` 欄位）
+
+2. **微調模型**  
+   - `fine_tune.py`：針對 Llama-Breeze2-3B-Instruct-Text 進行 LoRA 微調  
+   - 輸出結果會存放於 `lora_models/`
+
+3. **模型評估 (GTA)**  
+   - 使用 `GTA/` 中的工具與資料，進行 function calling 能力的評估  
+
+---
+
+## 📂 專案結構
+
+```
+Breeze2_FC_finetune/
+│
+├── Breeze2_FC_finetune/
+│   ├── .env
+│   ├── atomic_task_construct.py      # 原子任務生成
+│   ├── computer_use_data.py          # 特殊資料處理
+│   ├── data_cleaning.py              # 訓練資料清理與格式化
+│   ├── fine_tune.py                  # LoRA 微調主程式
+│   ├── function_generating.py        # 函式產生器
+│   ├── merge_lora.py                 # 合併 LoRA 權重
+│   ├── original_scenarios.py         # 原始情境資料
+│   ├── trajectory_generating.py      # 產生訓練軌跡
+│   ├── trajectory_generating_zh.py   # 中文版本的訓練軌跡生成
+│   │
+│   ├── data/                         # 訓練資料 (JSONL 格式, 含 messages 欄位)
+│   ├── lora_models/                  # 微調後模型輸出
+│   │
+│   └── GTA/                          # GTA 基準測試工具
+│       ├── LICENSE.txt
+│       └── README.md
+```
+
+---
+
+## ⚙️ 環境需求
+
+- Python ≥ 3.10
+- GPU: NVIDIA RTX 系列（11GB VRAM 以上建議）
+- CUDA ≥ 11.8
+- 主要套件：
+  - [PyTorch](https://pytorch.org/)
+  - [Transformers](https://github.com/huggingface/transformers)
+  - [PEFT (LoRA)](https://github.com/huggingface/peft)
+  - [Datasets](https://github.com/huggingface/datasets)
+  - [Accelerate](https://github.com/huggingface/accelerate)
+  - 其他需求可參考 `requirements.txt` 或自行安裝
+
+
+### 📦 安裝環境
+
+建議使用虛擬環境 (venv 或 conda)，並安裝相依套件：
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🚀 使用方式
+
+### 1. 建立資料集
+依序執行以下腳本產生清理後的 JSONL 資料：
+```bash
+python original_scenarios.py
+python atomic_task_construct.py
+python function_generating.py
+python trajectory_generating.py
+python data_cleaning.py
+```
+
+### 2. 執行微調
+```bash
+python fine_tune.py
+```
+- 微調後的 LoRA 權重將會存放於 `lora_models/`
+
+### 3. 合併 LoRA 權重（可選）
+若需要將 LoRA 權重與原始模型合併：
+```bash
+python merge_lora.py
+```
+
+### 4. 使用 GTA 評估
+```bash
+cd GTA
+# 依照 GTA README.md 的教學進行模型評估
+```
+
+---
+
+## 📊 訓練資料格式
+
+輸入/輸出的資料採用 **JSONL** 格式，每筆資料包含 `messages` 欄位，格式如下：
+
+```json
+{
+  "messages": [
+    {"role": "system", "content": "<system prompt>"},
+    {"role": "user", "content": "<task>"},
+    {"role": "assistant", "content": "<observed>、<thought>、<func_call>"},
+    {"role": "ipython", "content": "<函數調用結果>"}
+  ]
+}
+```
+
+---
+
+## 📌 注意事項
+- GTA 子模組提供的 README 與 LICENSE 檔可參考官方文件。

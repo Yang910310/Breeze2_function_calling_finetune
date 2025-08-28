@@ -1,0 +1,4498 @@
+[
+    {
+        "index": 0,
+        "scenario": "開啟下載文件夾並排序檔案由新到舊"
+    },
+    {
+        "index": 1,
+        "scenario": "搜尋電腦中名為report的PDF檔案並列出"
+    },
+    {
+        "index": 2,
+        "scenario": "刪除桌面所有大小超過100MB的影片檔案"
+    },
+    {
+        "index": 3,
+        "scenario": "複製文件夾內所有文字檔至備份資料夾"
+    },
+    {
+        "index": 4,
+        "scenario": "檢查C槽剩餘空間並列出大於10GB的資料夾"
+    },
+    {
+        "index": 5,
+        "scenario": "將指定資料夾內的照片依日期建立子資料夾分類"
+    },
+    {
+        "index": 6,
+        "scenario": "打開郵件應用並搜尋寄件人包含john的信件"
+    },
+    {
+        "index": 7,
+        "scenario": "建立一個新資料夾並將指定檔案移入該資料夾"
+    },
+    {
+        "index": 8,
+        "scenario": "將桌面所有jpg檔複製到USB裝置的照片資料夾"
+    },
+    {
+        "index": 9,
+        "scenario": "將指定文字檔內容複製貼上到新建的文字檔中"
+    },
+    {
+        "index": 10,
+        "scenario": "列出所有最近7天內建立的Excel檔案"
+    },
+    {
+        "index": 11,
+        "scenario": "將指定資料夾中所有PDF合併成一個檔案"
+    },
+    {
+        "index": 12,
+        "scenario": "搜尋特定關鍵字 \"invoice\" 並將結果輸出成文字檔"
+    },
+    {
+        "index": 13,
+        "scenario": "將桌面上特定檔案改名，加入當前日期後綴"
+    },
+    {
+        "index": 14,
+        "scenario": "複製下載資料夾裡最近30天內修改的檔案到備份位置"
+    },
+    {
+        "index": 15,
+        "scenario": "刪除所有圖片檔案，檔名包含temp的檔案"
+    },
+    {
+        "index": 16,
+        "scenario": "列出系統中所有安裝的應用程式名稱與版本"
+    },
+    {
+        "index": 17,
+        "scenario": "將指定CSV檔案轉換成TSV格式並儲存新檔"
+    },
+    {
+        "index": 18,
+        "scenario": "將Emails資料夾中寄件人為abc@domain.com的郵件匯出"
+    },
+    {
+        "index": 19,
+        "scenario": "搜尋硬碟內所有Word檔案並顯示檔案大小小於1MB的檔案"
+    },
+    {
+        "index": 20,
+        "scenario": "將指定影片剪輯從00:00至02:00區間取出並另存新檔案"
+    },
+    {
+        "index": 21,
+        "scenario": "將桌面上的PDF檔案批次加上密碼保護"
+    },
+    {
+        "index": 22,
+        "scenario": "複製指定PDF檔內的第1至5頁到新PDF文件"
+    },
+    {
+        "index": 23,
+        "scenario": "壓縮指定資料夾為zip檔並儲存至桌面"
+    },
+    {
+        "index": 24,
+        "scenario": "搜尋最近修改的圖片並依檔案類型分類列出"
+    },
+    {
+        "index": 25,
+        "scenario": "將使用者文件的所有.txt檔案移動到指定外接硬碟"
+    },
+    {
+        "index": 26,
+        "scenario": "將桌面上的指定Excel檔案中的Sheet1另存成CSV格式"
+    },
+    {
+        "index": 27,
+        "scenario": "將Downloads資料夾中下載日期為今天的檔案列出"
+    },
+    {
+        "index": 28,
+        "scenario": "刪除Downloads資料夾內重複檔案，依名稱和大小判斷"
+    },
+    {
+        "index": 29,
+        "scenario": "將特定資料夾內Excel檔案依建立日期排序並複製前三名"
+    },
+    {
+        "index": 30,
+        "scenario": "將特定資料夾中的圖片依拍攝日期建立資料夾並移動"
+    },
+    {
+        "index": 31,
+        "scenario": "列出Documents資料夾中所有最新30天內新增的檔案名稱"
+    },
+    {
+        "index": 32,
+        "scenario": "搜尋Desktop資料夾中所有PNG檔檔名包含「logo」的列出"
+    },
+    {
+        "index": 33,
+        "scenario": "將指定資料夾內所有編碼UTF-8的文字檔案轉為ANSI格式"
+    },
+    {
+        "index": 34,
+        "scenario": "將AllDocuments文件夾內最後存取日期超過1年的檔案備份"
+    },
+    {
+        "index": 35,
+        "scenario": "匯出指定郵件帳號中所有未讀郵件標題與寄件人清單"
+    },
+    {
+        "index": 36,
+        "scenario": "從指定資料夾複製指定格式的檔案到另一個指定路徑"
+    },
+    {
+        "index": 37,
+        "scenario": "將桌面特定名稱包含\"Meeting\"的文件複製到雲端同步資料夾"
+    },
+    {
+        "index": 38,
+        "scenario": "將指定資料夾內word文件批次轉換成PDF檔"
+    },
+    {
+        "index": 39,
+        "scenario": "將歷史資料夾內所有檔案依建立日期重新命名排序"
+    },
+    {
+        "index": 40,
+        "scenario": "將指定路徑內所有檔案建立清單並輸出成Excel檔"
+    },
+    {
+        "index": 41,
+        "scenario": "將桌面所有以\"Invoice\"開頭的Excel檔案複製到指定資料夾"
+    },
+    {
+        "index": 42,
+        "scenario": "將音樂資料夾中所有MP3檔依檔名排序並建立播放清單"
+    },
+    {
+        "index": 43,
+        "scenario": "刪除影片資料夾中建立日期超過2年的所有檔案"
+    },
+    {
+        "index": 44,
+        "scenario": "將桌面指定PDF檔案轉換為文字檔後儲存"
+    },
+    {
+        "index": 45,
+        "scenario": "列出指定資料夾中所有子資料夾名稱並匯出文字檔"
+    },
+    {
+        "index": 46,
+        "scenario": "將指定資料夾內圖片依解析度分別移動至兩個資料夾"
+    },
+    {
+        "index": 47,
+        "scenario": "搜尋備份資料夾內大小超過500MB的檔案並列清單"
+    },
+    {
+        "index": 48,
+        "scenario": "將指定Excel檔內欄位A與B合併輸出新檔案"
+    },
+    {
+        "index": 49,
+        "scenario": "複製指定資料夾中最近7天內修改過的所有PDF檔案"
+    },
+    {
+        "index": 50,
+        "scenario": "整理指定資料夾中所有檔案，並依副檔名分類移動"
+    },
+    {
+        "index": 51,
+        "scenario": "將所有下載的圖片依所在月份建立子資料夾歸類"
+    },
+    {
+        "index": 52,
+        "scenario": "查找桌面最近下載的五個檔案並列出檔名與大小"
+    },
+    {
+        "index": 53,
+        "scenario": "將指定路徑的文字檔轉成大寫字母後另存新檔"
+    },
+    {
+        "index": 54,
+        "scenario": "打開指定資料夾並以檔案類型排序所有檔案"
+    },
+    {
+        "index": 55,
+        "scenario": "備份指定圖片資料夾中的所有RAW格式檔案到另一磁碟"
+    },
+    {
+        "index": 56,
+        "scenario": "將指定影片檔剪輯前5分鐘另存成新影片檔案"
+    },
+    {
+        "index": 57,
+        "scenario": "將專案資料夾內所有txt檔案合併成一個新文字檔"
+    },
+    {
+        "index": 58,
+        "scenario": "搜尋桌面特定關鍵字「report」的PDF檔並複製到USB"
+    },
+    {
+        "index": 59,
+        "scenario": "將文件資料夾中的報告文件建立目錄並匯出成清單"
+    },
+    {
+        "index": 60,
+        "scenario": "將指定資料夾裡所有CSV檔案匯入並整合成單一Excel文件"
+    },
+    {
+        "index": 61,
+        "scenario": "列出指定音樂資料夾中所有MP3檔案的歌手名稱和標題"
+    },
+    {
+        "index": 62,
+        "scenario": "將Desktop內指定字串包含\"draft\"的文件移動至草稿資料夾"
+    },
+    {
+        "index": 63,
+        "scenario": "將影片資料夾所有mp4檔案依檔名長度排序並輸出文字清單"
+    },
+    {
+        "index": 64,
+        "scenario": "將Downloads資料夾內png檔案轉換成jpg格式並另存"
+    },
+    {
+        "index": 65,
+        "scenario": "搜尋特定專案資料夾內所有Excel檔的建立日期並排序"
+    },
+    {
+        "index": 66,
+        "scenario": "將Documents資料夾中所有最後修改日期在上週的文字檔複製"
+    },
+    {
+        "index": 67,
+        "scenario": "列出桌面所有指定副檔名.docx的文件並將路徑儲存於TXT"
+    },
+    {
+        "index": 68,
+        "scenario": "將硬碟中所有重複名稱的JPEG圖片依檔案大小刪除較小者"
+    },
+    {
+        "index": 69,
+        "scenario": "搜尋特定目錄中的所有MP4檔案並匯出檔案大小列表"
+    },
+    {
+        "index": 70,
+        "scenario": "將資料夾中所有檔案依大小從大到小排序並輸出結果"
+    },
+    {
+        "index": 71,
+        "scenario": "刪除指定資料夾中的所有空檔案大小為0的檔案"
+    },
+    {
+        "index": 72,
+        "scenario": "列出自Downloads資料夾中過去3天下載的所有PDF檔案"
+    },
+    {
+        "index": 73,
+        "scenario": "備份特定文件資料夾下所有PDF含所有子資料夾資料至外接硬碟"
+    },
+    {
+        "index": 74,
+        "scenario": "將指定路徑下txt檔內所有數字替換成空白後另存新檔"
+    },
+    {
+        "index": 75,
+        "scenario": "搜尋指定郵箱帳號中所有寄件時間在昨天下午5點後的郵件"
+    },
+    {
+        "index": 76,
+        "scenario": "將桌面指定資料夾內文件以檔名字母排序並複製至雲端資料夾"
+    },
+    {
+        "index": 77,
+        "scenario": "將Downloads資料夾裡所有圖片依格式分類移動至子資料夾"
+    },
+    {
+        "index": 78,
+        "scenario": "將音樂資料夾中所有音樂檔依建立日期由新到舊列出"
+    },
+    {
+        "index": 79,
+        "scenario": "複製所有在文件資料夾中副檔名為xlsx且大小低於500KB檔案"
+    },
+    {
+        "index": 80,
+        "scenario": "將所有zip壓縮檔解壓到指定資料夾並顯示成功訊息"
+    },
+    {
+        "index": 81,
+        "scenario": "將指定資料夾中所有小於10MB的PDF檔案批量改名加前綴"
+    },
+    {
+        "index": 82,
+        "scenario": "搜尋指定資料夾內所有Excel檔案，匯出檔案名稱與行數報告"
+    },
+    {
+        "index": 83,
+        "scenario": "列出系統中最近30天安裝的所有軟體名稱及其安裝日期"
+    },
+    {
+        "index": 84,
+        "scenario": "將桌面特定副檔名的文字檔案，內容轉為小寫並另存新檔案"
+    },
+    {
+        "index": 85,
+        "scenario": "將指定資料夾中文件依照修改日期由新到舊排序輸出清單"
+    },
+    {
+        "index": 86,
+        "scenario": "刪除指定資料夾中所有超過1GB的影片檔案並回報刪除數量"
+    },
+    {
+        "index": 87,
+        "scenario": "搜尋指定資料夾內包含「年度報告」文字的PDF檔並匯出清單"
+    },
+    {
+        "index": 88,
+        "scenario": "將指定資料夾內所有圖片依檔案大小分類移動到兩個資料夾"
+    },
+    {
+        "index": 89,
+        "scenario": "複製指定硬碟上上週新增的所有.docx文件到備份資料夾"
+    },
+    {
+        "index": 90,
+        "scenario": "將指定下載資料夾內的影片檔案依修改日期排序顯示檔名"
+    },
+    {
+        "index": 91,
+        "scenario": "將指定資料夾中的文字檔案內容複製貼上到新建的Excel檔"
+    },
+    {
+        "index": 92,
+        "scenario": "搜尋指定電子郵件帳號所有含附件的郵件標題並輸出清單"
+    },
+    {
+        "index": 93,
+        "scenario": "將桌面「工作報告」資料夾內所有PDF檔案複製到U盤內報告資料夾"
+    },
+    {
+        "index": 94,
+        "scenario": "將指定資料夾中所有副檔名為png且解析度高於1920x1080的圖片列出"
+    },
+    {
+        "index": 95,
+        "scenario": "匯出指定資料夾所有文件檔案大小與建立日期至Excel表格"
+    },
+    {
+        "index": 96,
+        "scenario": "搜尋電腦內所有影片檔案，依檔案格式分類成資料夾並移動"
+    },
+    {
+        "index": 97,
+        "scenario": "將Documents資料夾下所有Excel檔複製到外接硬碟指定路徑"
+    },
+    {
+        "index": 98,
+        "scenario": "查找Downloads資料夾中所有檔案最後修改時間為當天的檔案列表"
+    },
+    {
+        "index": 99,
+        "scenario": "刪除指定資料夾內，名稱含「測試」且建立日期超過15天的檔案"
+    },
+    {
+        "index": 100,
+        "scenario": "將指定資料夾中所有文字檔案內容合併成一份Excel檔案"
+    },
+    {
+        "index": 101,
+        "scenario": "將指定影片檔案截取中間1分鐘部分，另存成新檔案於桌面"
+    },
+    {
+        "index": 102,
+        "scenario": "將指定資料夾中的檔案名稱依英文大小寫不分排序並列印清單"
+    },
+    {
+        "index": 103,
+        "scenario": "將桌面上所有PDF檔案依檔案大小排序並複製至指定備份資料夾"
+    },
+    {
+        "index": 104,
+        "scenario": "搜尋特定資料夾內txt檔案包含特定字串\"urgent\"的檔案並匯出檔名"
+    },
+    {
+        "index": 105,
+        "scenario": "複製硬碟中所有近一週內新增的JPG圖片檔案到備份資料夾"
+    },
+    {
+        "index": 106,
+        "scenario": "將Downloads資料夾中所有PDF檔案按建立日期倒序排列列清單"
+    },
+    {
+        "index": 107,
+        "scenario": "將所有指定資料夾內Excel檔中Sheet2匯出為CSV檔案至桌面"
+    },
+    {
+        "index": 108,
+        "scenario": "將桌面上特定日期前建立的圖片依檔案類型分類備份"
+    },
+    {
+        "index": 109,
+        "scenario": "將所有mp3音樂檔案依歌手名稱排列並產生播放清單存於桌面"
+    },
+    {
+        "index": 110,
+        "scenario": "將指定資料夾中所有txt檔案中出現「錯誤」字樣的行匯出新檔案"
+    },
+    {
+        "index": 111,
+        "scenario": "將Documents資料夾中所有超過30MB的PDF文件複製到外接硬碟"
+    },
+    {
+        "index": 112,
+        "scenario": "將指定資料夾中的影片檔依最後修改日期排序後複製前三個"
+    },
+    {
+        "index": 113,
+        "scenario": "將此電腦中所有xls檔案依檔案大小從大到小排序輸出清單"
+    },
+    {
+        "index": 114,
+        "scenario": "將Downloads資料夾中的所有圖片檔案依檔名字母順序排列列表"
+    },
+    {
+        "index": 115,
+        "scenario": "將指定郵箱中所有標題含「會議」郵件匯出寄件人與時間資訊"
+    },
+    {
+        "index": 116,
+        "scenario": "搜尋儲存資料夾中所有超過50MB的檔案並將路徑輸出檔案"
+    },
+    {
+        "index": 117,
+        "scenario": "將Documents資料夾中所有DOCX檔案依建立日期由舊至新排序列出"
+    },
+    {
+        "index": 118,
+        "scenario": "將硬碟內所有PDF檔案建立目錄以檔案名稱與大小排序後儲存"
+    },
+    {
+        "index": 119,
+        "scenario": "將指定影片資料夾中特定格式的所有檔案移動至新建資料夾"
+    },
+    {
+        "index": 120,
+        "scenario": "將特定資料夾中所有修改日期在近3天內的檔案壓縮存檔"
+    },
+    {
+        "index": 121,
+        "scenario": "將桌面上所有MP4檔案按檔案大小由大到小列出並匯出文字清單"
+    },
+    {
+        "index": 122,
+        "scenario": "列出指定檔案夾內所有文件的檔案名稱及其最後存取時間"
+    },
+    {
+        "index": 123,
+        "scenario": "將指定路徑所有檔案依格式分類，並複製至對應子資料夾"
+    },
+    {
+        "index": 124,
+        "scenario": "搜尋下載資料夾中大小超過200MB的影片檔案並列清單"
+    },
+    {
+        "index": 125,
+        "scenario": "將特定PDF檔案的第2至第10頁提取另外儲存成新文件"
+    },
+    {
+        "index": 126,
+        "scenario": "複製指定資料夾中所有XML檔案並壓縮成zip檔案儲存桌面"
+    },
+    {
+        "index": 127,
+        "scenario": "將音樂資料夾中的所有MP3檔案依建立時間排序並匯出檔名"
+    },
+    {
+        "index": 128,
+        "scenario": "將桌面指定資料夾中所有.txt檔案依檔案大小從小到大排序"
+    },
+    {
+        "index": 129,
+        "scenario": "將指定影片檔案依時間點0:30至1:30截取並儲存新剪輯檔"
+    },
+    {
+        "index": 130,
+        "scenario": "列出指定資料夾內所有資料夾名稱及內含文件數量輸出清單"
+    },
+    {
+        "index": 131,
+        "scenario": "將Downloads資料夾中所有PDF檔案複製到雲端同步資料夾中"
+    },
+    {
+        "index": 132,
+        "scenario": "將資料夾內最近一週創建的Excel檔案合併成一個新檔案"
+    },
+    {
+        "index": 133,
+        "scenario": "將指定資料夾內檔案依檔案大小超過10MB分組列出檔案清單"
+    },
+    {
+        "index": 134,
+        "scenario": "搜尋Documents資料夾內所有最後修改超過一年的檔案並備份"
+    },
+    {
+        "index": 135,
+        "scenario": "將指定資料夾中的CSV檔按檔案名稱排序後合併成一個Excel文件"
+    },
+    {
+        "index": 136,
+        "scenario": "刪除桌面所有最後修改日期早於2023年1月1日的檔案"
+    },
+    {
+        "index": 137,
+        "scenario": "將Downloads資料夾內2019年至2020年間的圖片備份至指定資料夾"
+    },
+    {
+        "index": 138,
+        "scenario": "將指定影片資料夾中所有檔案依檔案格式分類移動到子資料夾"
+    },
+    {
+        "index": 139,
+        "scenario": "列出Documents資料夾中所有Excel檔案及其欄位數並輸出清單"
+    },
+    {
+        "index": 140,
+        "scenario": "將指定資料夾內所有JPEG檔案依建立日期新舊排序並複製到USB"
+    },
+    {
+        "index": 141,
+        "scenario": "搜尋Dropbox資料夾中所有包含關鍵字「invoice」的PDF檔案清單"
+    },
+    {
+        "index": 142,
+        "scenario": "刪除Documents資料夾中所有檔案結尾是_backup的檔案"
+    },
+    {
+        "index": 143,
+        "scenario": "將指定資料夾內所有文字檔案內容統一轉成UTF-8格式儲存"
+    },
+    {
+        "index": 144,
+        "scenario": "將指定資料夾中的PDF檔案依檔案大小排序並刪除最小的三個"
+    },
+    {
+        "index": 145,
+        "scenario": "將Downloads內所有最近24小時內下載的圖片檔案複製到備份資料夾"
+    },
+    {
+        "index": 146,
+        "scenario": "搜尋音樂資料夾中所有mp3檔案屬性並匯出為Excel檔案"
+    },
+    {
+        "index": 147,
+        "scenario": "將特定資料夾的CSV檔案合併後，依指定欄位排序輸出新檔"
+    },
+    {
+        "index": 148,
+        "scenario": "將Documents資料夾中所有檔案以最近使用日期排序後匯出清單"
+    },
+    {
+        "index": 149,
+        "scenario": "刪除指定資料夾內所有建立日期晚於2024年1月1日的檔案"
+    },
+    {
+        "index": 150,
+        "scenario": "將影片資料夾中所有mp4檔案加入當前日期作為檔名後綴"
+    },
+    {
+        "index": 151,
+        "scenario": "將指定資料夾內所有txt檔中某關鍵字替換為另一字串並另存新檔"
+    },
+    {
+        "index": 152,
+        "scenario": "將指定資料夾所有檔名包含2023的Excel文件複製到特定資料夾"
+    },
+    {
+        "index": 153,
+        "scenario": "列出所有已安裝應用程式並依安裝日期由新至舊排序"
+    },
+    {
+        "index": 154,
+        "scenario": "將桌面所有gif圖片儲存為png格式並另存至新資料夾"
+    },
+    {
+        "index": 155,
+        "scenario": "將指定影片檔案依10秒為單位切割成多段剪輯並儲存"
+    },
+    {
+        "index": 156,
+        "scenario": "將Downloads資料夾所有PDF檔案依建立日期複製到指定硬碟"
+    },
+    {
+        "index": 157,
+        "scenario": "搜尋指定郵箱內寄件人為「support@company.com」的郵件匯出清單"
+    },
+    {
+        "index": 158,
+        "scenario": "列出指定資料夾內文字檔案最後修改時間與檔案大小並輸出"
+    },
+    {
+        "index": 159,
+        "scenario": "將桌面所有word文件依建立時間排序並複製至備份資料夾"
+    },
+    {
+        "index": 160,
+        "scenario": "將指定資料夾內所有.pdf檔案依頁數排序後輸出清單"
+    },
+    {
+        "index": 161,
+        "scenario": "將特定資料夾中的圖片依解析度由高到低排序並複製前三名"
+    },
+    {
+        "index": 162,
+        "scenario": "將Documents資料夾中所有.pptx檔案複製至USB隨身碟的資料夾"
+    },
+    {
+        "index": 163,
+        "scenario": "將Downloads資料夾中所有檔案依大小分類並輸出各類別數量"
+    },
+    {
+        "index": 164,
+        "scenario": "將指定路徑的CSV檔案匯入，過濾欄位B大於100的資料後儲存"
+    },
+    {
+        "index": 165,
+        "scenario": "將指定文字檔案中所有email地址提取到新文字檔保存"
+    },
+    {
+        "index": 166,
+        "scenario": "搜尋指定資料夾內所有xls檔案，匯出檔名與工作表數量報告"
+    },
+    {
+        "index": 167,
+        "scenario": "將桌面上的所有zip壓縮檔解壓縮到指定資料夾中"
+    },
+    {
+        "index": 168,
+        "scenario": "將下載資料夾中所有PDF檔案合併成一個新檔案儲存桌面"
+    },
+    {
+        "index": 169,
+        "scenario": "將Documents資料夾內所有doc檔案複製到備份硬碟並紀錄檔名"
+    },
+    {
+        "index": 170,
+        "scenario": "搜尋指定路徑內文件大小超過200MB的所有檔案並列出檔名"
+    },
+    {
+        "index": 171,
+        "scenario": "將指定資料夾中所有JPEG圖片依建立日期分別移動到子資料夾"
+    },
+    {
+        "index": 172,
+        "scenario": "列出電腦中所有最近一個月內修改的Excel文件與檔案大小"
+    },
+    {
+        "index": 173,
+        "scenario": "從指定資料夾中提取所有PDF檔第3到第7頁並合成新PDF"
+    },
+    {
+        "index": 174,
+        "scenario": "將桌面指定資料夾內所有文字檔案依檔名先後排序並輸出清單"
+    },
+    {
+        "index": 175,
+        "scenario": "搜尋指定領域的郵箱帳號中所有標記為已讀的郵件匯出清單"
+    },
+    {
+        "index": 176,
+        "scenario": "將硬碟中特定影片資料夾中所有超過1GB的檔案移動到備份主資料夾"
+    },
+    {
+        "index": 177,
+        "scenario": "將Downloads資料夾中所有文件依檔案大小由大到小列出及匯出檔名"
+    },
+    {
+        "index": 178,
+        "scenario": "將指定資料夾內所有文件複製到U盤，並生成檔案總數報告"
+    },
+    {
+        "index": 179,
+        "scenario": "將Documents資料夾所有ppt文件依最後修改日期升冪排序顯示"
+    },
+    {
+        "index": 180,
+        "scenario": "複製指定路徑中所有文字檔案依建立時間由新到舊排序備份"
+    },
+    {
+        "index": 181,
+        "scenario": "將指定資料夾內所有圖片檔案重命名加入建立日期後綴"
+    },
+    {
+        "index": 182,
+        "scenario": "將指定資料夾影像檔案複製到外接硬碟指定路徑並生成備份紀錄"
+    },
+    {
+        "index": 183,
+        "scenario": "搜尋桌面資料夾中所有以\"2024\"開頭的文件並匯出列表"
+    },
+    {
+        "index": 184,
+        "scenario": "將下載資料夾中所有CSV檔案依檔案大小排序並複製前5名"
+    },
+    {
+        "index": 185,
+        "scenario": "將所有Word檔內容轉存成純文字檔並保存在指定資料夾"
+    },
+    {
+        "index": 186,
+        "scenario": "刪除Documents資料夾中建立日期早於2019年的所有檔案"
+    },
+    {
+        "index": 187,
+        "scenario": "將特定文件夾中所有帶註解的Excel檔案另存新版本加上日期"
+    },
+    {
+        "index": 188,
+        "scenario": "將指定資料夾中的PDF檔依檔案大小由小到大排序後輸出列表"
+    },
+    {
+        "index": 189,
+        "scenario": "將Downloads資料夾中所有txt檔案內含關鍵字\"error\"的行匯出新檔"
+    },
+    {
+        "index": 190,
+        "scenario": "複製所有mp3音樂檔案，並依年份分別儲存於不同資料夾"
+    },
+    {
+        "index": 191,
+        "scenario": "將文件資料夾所有的PDF文件依修改日期從近到遠排列列出"
+    },
+    {
+        "index": 192,
+        "scenario": "搜尋硬碟內所有JPG圖片並依檔案大小由大到小排序顯示前10名"
+    },
+    {
+        "index": 193,
+        "scenario": "將指定資料夾中所有docx檔案轉存為PDF格式並另存新資料夾"
+    },
+    {
+        "index": 194,
+        "scenario": "列出全系統中所有以2023結尾的檔案並輸出完整路徑清單"
+    },
+    {
+        "index": 195,
+        "scenario": "將Downloads資料夾中所有最近修改日期是今天的文字檔案複製備份"
+    },
+    {
+        "index": 196,
+        "scenario": "搜尋指定資料夾所有mp4影片，列出檔名與檔案大小並輸出文字檔"
+    },
+    {
+        "index": 197,
+        "scenario": "將Documents資料夾的所有Excel檔備份到外接硬碟並生成紀錄檔"
+    },
+    {
+        "index": 198,
+        "scenario": "將指定資料夾中所有檔案依建立時間由舊至新排序並匯出清單"
+    },
+    {
+        "index": 199,
+        "scenario": "將桌面影片資料夾內檔案依解析度由高到低排序並複製前三名"
+    },
+    {
+        "index": 200,
+        "scenario": "從指定資料夾複製所有最近2天更新的PDF檔案到備份資料夾"
+    },
+    {
+        "index": 201,
+        "scenario": "將指定路徑文字檔文字內容轉成大寫並另存新檔於桌面"
+    },
+    {
+        "index": 202,
+        "scenario": "將特定資料夾中所有png圖片批量壓縮並儲存於指定子資料夾"
+    },
+    {
+        "index": 203,
+        "scenario": "搜尋Downloads資料夾中所有含特定字串\"invoice\"的PDF檔案並列出"
+    },
+    {
+        "index": 204,
+        "scenario": "將指定資料夾中所有檔案依最後修改日期由新到舊排序並匯出"
+    },
+    {
+        "index": 205,
+        "scenario": "將Documents資料夾中所有pptx檔案依大小排序並複製至備份硬碟"
+    },
+    {
+        "index": 206,
+        "scenario": "將指定郵件帳號中所有附件下載並儲存到指定路徑中"
+    },
+    {
+        "index": 207,
+        "scenario": "將桌面影像資料夾中所有JPEG檔名加入建立日期並儲存紀錄"
+    },
+    {
+        "index": 208,
+        "scenario": "列出系統所有已安裝軟體名稱與版本並匯出清單"
+    },
+    {
+        "index": 209,
+        "scenario": "將指定資料夾中所有PDF檔依檔案大小分為三組並輸出每組清單"
+    },
+    {
+        "index": 210,
+        "scenario": "將所有Downloads資料夾內文本檔案內的數字清除後另存新檔"
+    },
+    {
+        "index": 211,
+        "scenario": "搜尋指定資料夾內所有Excel檔並匯出檔案名稱與最後修改時間"
+    },
+    {
+        "index": 212,
+        "scenario": "將視頻資料夾中指定影片檔切割成20秒長的小片段另存新檔"
+    },
+    {
+        "index": 213,
+        "scenario": "將Desktop資料夾中所有DOCX文件依檔名排序後複製至指定資料夾"
+    },
+    {
+        "index": 214,
+        "scenario": "刪除Downloads資料夾內所有副檔名為.tmp的暫存檔案"
+    },
+    {
+        "index": 215,
+        "scenario": "將指定資料夾中所有文字檔內容複製粘貼到Excel新工作表中"
+    },
+    {
+        "index": 216,
+        "scenario": "搜尋郵箱中所有標題包含「報告」郵件並匯出寄件人與日期清單"
+    },
+    {
+        "index": 217,
+        "scenario": "揀選Downloads資料夾中5MB以上的所有影片檔案並複製備份"
+    },
+    {
+        "index": 218,
+        "scenario": "將Documents資料夾中最新10個PDF檔案名及建立日期匯出成文字檔"
+    },
+    {
+        "index": 219,
+        "scenario": "刪除指定資料夾裡所有創建日期早於2022年的檔案"
+    },
+    {
+        "index": 220,
+        "scenario": "將指定影片依先後檔名排序並合併成一個新影片檔保存桌面"
+    },
+    {
+        "index": 221,
+        "scenario": "列出Downloads資料夾中所有文字檔案的檔案大小與修改日期"
+    },
+    {
+        "index": 222,
+        "scenario": "搜尋指定影片資料夾中所有mp4格式並輸出完整檔案路徑清單"
+    },
+    {
+        "index": 223,
+        "scenario": "將指定資料夾中所有文字檔案依行數由少至多排序並匯出清單"
+    },
+    {
+        "index": 224,
+        "scenario": "將指定Excel檔中Sheet1資料複製到新建立的文字檔並保存"
+    },
+    {
+        "index": 225,
+        "scenario": "將桌面下載資料夾中所有檔案依檔案格式分別移動到子資料夾"
+    },
+    {
+        "index": 226,
+        "scenario": "搜尋指定郵箱中所有帶有關鍵字「urgent」的郵件並匯出清單"
+    },
+    {
+        "index": 227,
+        "scenario": "將Downloads資料夾中過去7天內新增的影片檔案複製到備份磁碟"
+    },
+    {
+        "index": 228,
+        "scenario": "將Documents資料夾中所有ppt檔案依建立日期排序並匯出檔名列表"
+    },
+    {
+        "index": 229,
+        "scenario": "將照片資料夾內所有jpeg檔案按解析度由高到低排序並複製前三名"
+    },
+    {
+        "index": 230,
+        "scenario": "將Downloads資料夾中所有PDF文件按修改日期由新到舊排列列表"
+    },
+    {
+        "index": 231,
+        "scenario": "網路硬碟內上月新增影片檔案複製到本機備份資料夾"
+    },
+    {
+        "index": 232,
+        "scenario": "將Documents資料夾中所有Excel檔案合併為一檔並輸出於桌面"
+    },
+    {
+        "index": 233,
+        "scenario": "將特定資料夾中所有文本檔案內容轉成小寫另存新檔於桌面"
+    },
+    {
+        "index": 234,
+        "scenario": "搜尋所有資料夾中含有「invoice」文字的PDF檔並匯出清單"
+    },
+    {
+        "index": 235,
+        "scenario": "將特定資料夾內所有影片檔案依大小由大到小排序並匯出清單"
+    },
+    {
+        "index": 236,
+        "scenario": "將Downloads資料夾中所有檔案依建立日期由新到舊排序列出檔名"
+    },
+    {
+        "index": 237,
+        "scenario": "將Documents資料夾中所有txt檔內含特定關鍵字行匯出至新檔案"
+    },
+    {
+        "index": 238,
+        "scenario": "將Downloads內所有jpg與png檔案複製到照片備份資料夾"
+    },
+    {
+        "index": 239,
+        "scenario": "尋找指定資料夾中所有大小低於1MB的Excel檔案並匯出清單"
+    },
+    {
+        "index": 240,
+        "scenario": "將指定資料夾中所有PDF檔案依最後修改時間排序並輸出路徑"
+    },
+    {
+        "index": 241,
+        "scenario": "搜尋所有影片資料夾中最後修改日期在本月的mp4檔名及大小"
+    },
+    {
+        "index": 242,
+        "scenario": "將桌面指定資料夾內所有影片剪輯合併成一個新檔並儲存"
+    },
+    {
+        "index": 243,
+        "scenario": "列出系統內所有安裝的字型名稱並將清單匯出文字檔"
+    },
+    {
+        "index": 244,
+        "scenario": "將指定郵件帳號中最近7天收件匣中所有郵件標題匯出清單"
+    },
+    {
+        "index": 245,
+        "scenario": "複製Documents資料夾中所有建檔日期超過5年的文件到備份位置"
+    },
+    {
+        "index": 246,
+        "scenario": "將下載資料夾中所有PDF檔的檔名加上下載日期後綴並另存"
+    },
+    {
+        "index": 247,
+        "scenario": "將音樂資料夾中所有mp3檔案依檔案大小分類並複製至子資料夾"
+    },
+    {
+        "index": 248,
+        "scenario": "將指定路徑中的所有文字檔依字母序排列並列出檔名清單"
+    },
+    {
+        "index": 249,
+        "scenario": "將桌面影片資料夾中特定類型的檔案依修改時間排序並匯出列表"
+    },
+    {
+        "index": 250,
+        "scenario": "搜尋郵箱中所有附件格式為PDF且大小超過5MB的郵件列表"
+    },
+    {
+        "index": 251,
+        "scenario": "將Downloads資料夾中所有影片依建立日期由舊至新排序並輸出"
+    },
+    {
+        "index": 252,
+        "scenario": "將Documents資料夾內所有TXT檔案內容轉檔為UTF-8格式並另存"
+    },
+    {
+        "index": 253,
+        "scenario": "將指定資料夾所有PNG圖片進行重命名，格式為日期加序號"
+    },
+    {
+        "index": 254,
+        "scenario": "刪除Downloads資料夾中所有副檔名為.tmp且大小為0KB的檔案"
+    },
+    {
+        "index": 255,
+        "scenario": "將桌面所有文件複製到指定備份資料夾並生成複製完成報告"
+    },
+    {
+        "index": 256,
+        "scenario": "將指定資料夾內所有Excel檔案依檔案大小由小至大匯出清單"
+    },
+    {
+        "index": 257,
+        "scenario": "將Downloads資料夾中所有PDF檔案依頁數由多到少排序並列清單"
+    },
+    {
+        "index": 258,
+        "scenario": "搜尋硬碟中所有最近30天內新增且檔大小超過10MB的檔案"
+    },
+    {
+        "index": 259,
+        "scenario": "將Documents內所有Word文件中所有數據匯出至CSV檔案"
+    },
+    {
+        "index": 260,
+        "scenario": "將指定路徑下的影片檔案依檔名排序後複製前10個到備份資料夾"
+    },
+    {
+        "index": 261,
+        "scenario": "將桌面文件資料夾中所有文本檔案的第一行提取並輸出至新檔"
+    },
+    {
+        "index": 262,
+        "scenario": "搜尋郵箱帳號中所有未讀郵件的發件人與標題匯出文字檔"
+    },
+    {
+        "index": 263,
+        "scenario": "將指定Downloads資料夾內所有音訊檔案複製到外接硬碟指定路徑"
+    },
+    {
+        "index": 264,
+        "scenario": "將Documents資料夾內所有pptx檔案依檔案大小由大到小排序輸出"
+    },
+    {
+        "index": 265,
+        "scenario": "將下載資料夾中jpeg及png格式圖片依解析度分類並移動至資料夾"
+    },
+    {
+        "index": 266,
+        "scenario": "列出所有最近一個月內修改過的PDF文件名稱與修改日期保存"
+    },
+    {
+        "index": 267,
+        "scenario": "將桌面所有Word文件依建立日期排序並複製前三個文檔"
+    },
+    {
+        "index": 268,
+        "scenario": "將指定影片依秒數區間截取，並另存為新影片檔於桌面"
+    },
+    {
+        "index": 269,
+        "scenario": "將Downloads資料夾中所有大小超過100MB的影片列清單並打包備份"
+    },
+    {
+        "index": 270,
+        "scenario": "將Documents資料夾中所有Excel檔案中指定Sheet匯出為CSV檔案"
+    },
+    {
+        "index": 271,
+        "scenario": "搜尋指定資料夾中所有帶有關鍵字「重要」的文字檔案並匯出清單"
+    },
+    {
+        "index": 272,
+        "scenario": "將指定文件資料夾所有txt檔案轉為大寫字母後另存新檔案"
+    },
+    {
+        "index": 273,
+        "scenario": "將任意資料夾內所有最近7天新增的檔案列出並匯出成清單"
+    },
+    {
+        "index": 274,
+        "scenario": "將桌面Downloads資料夾所有PDF檔案依檔案大小排序列出檔名"
+    },
+    {
+        "index": 275,
+        "scenario": "搜尋郵箱中標題以「通知」開頭的郵件並匯出發件人與日期"
+    },
+    {
+        "index": 276,
+        "scenario": "將指定資料夾中所有txt檔的內容合併並輸出成一個新的文字檔"
+    },
+    {
+        "index": 277,
+        "scenario": "將Documents資料夾內所有pptx檔案依建立日期由新到舊排序列表"
+    },
+    {
+        "index": 278,
+        "scenario": "刪除Downloads資料夾中所有大小為0KB的檔案並報告刪除數量"
+    },
+    {
+        "index": 279,
+        "scenario": "將指定下載資料夾內的所有音訊檔按照檔案類型建立子資料夾分類"
+    },
+    {
+        "index": 280,
+        "scenario": "將Downloads資料夾中所有影片檔依修改日期排列並複製最新五個"
+    },
+    {
+        "index": 281,
+        "scenario": "將指定郵箱帳號內所有附件下載並備份至指定資料夾"
+    },
+    {
+        "index": 282,
+        "scenario": "刪除桌面指定資料夾中修改日期早於2023年1月1日的所有檔案"
+    },
+    {
+        "index": 283,
+        "scenario": "列出Documents資料夾內所有Excel檔案名稱並匯出建立日期報告"
+    },
+    {
+        "index": 284,
+        "scenario": "將Downloads資料夾裡影片檔案依檔案大小由大到小排序並匯出清單"
+    },
+    {
+        "index": 285,
+        "scenario": "將桌面所有的JPEG圖片轉換為PNG格式並另存至「轉換後」資料夾"
+    },
+    {
+        "index": 286,
+        "scenario": "搜尋Downloads資料夾內所有txt檔案包含「完成」字樣的檔案"
+    },
+    {
+        "index": 287,
+        "scenario": "將指定資料夾內所有PDF檔案依頁數由多到少排序並複製前三個"
+    },
+    {
+        "index": 288,
+        "scenario": "刪除指定資料夾中所有建立日期早於2022年12月31日的文件"
+    },
+    {
+        "index": 289,
+        "scenario": "將Documents資料夾中所有CSV檔案內容合併匯出成一個Excel文件"
+    },
+    {
+        "index": 290,
+        "scenario": "將指定文字檔案中的特定字串替換成新字串並另存新檔"
+    },
+    {
+        "index": 291,
+        "scenario": "將Downloads資料夾內所有的圖檔依解析度建子資料夾分類排序"
+    },
+    {
+        "index": 292,
+        "scenario": "將指定資料夾內所有檔案按建立日期由新至舊輸出成文字檔清單"
+    },
+    {
+        "index": 293,
+        "scenario": "將Documents資料夾所有pptx檔案依檔案大小由小到大排序匯出"
+    },
+    {
+        "index": 294,
+        "scenario": "將Downloads資料夾內所有PDF檔案壓縮為zip檔並存於桌面"
+    },
+    {
+        "index": 295,
+        "scenario": "將Documents資料夾中所有docx檔案轉成純文字檔並另存新目錄"
+    },
+    {
+        "index": 296,
+        "scenario": "搜尋指定資料夾中所有Excel檔依建立日期由舊至新排序並列名單"
+    },
+    {
+        "index": 297,
+        "scenario": "將Downloads資料夾中所有影片按檔案大小由大到小排序匯出清單"
+    },
+    {
+        "index": 298,
+        "scenario": "將指定影片截取0:10到1:00區段並儲存為新剪輯檔案於桌面"
+    },
+    {
+        "index": 299,
+        "scenario": "將Documents資料夾內所有文字檔案內容轉為大寫並另存為新檔"
+    },
+    {
+        "index": 300,
+        "scenario": "搜尋郵箱中所有未回覆郵件標題與發件人並列出清單"
+    },
+    {
+        "index": 301,
+        "scenario": "列出所有Android手機內特定資料夾內圖片檔名並存為文字清單"
+    },
+    {
+        "index": 302,
+        "scenario": "將指定資料夾中所有PDF以頁數排序後合併成一個新PDF文件"
+    },
+    {
+        "index": 303,
+        "scenario": "將Downloads資料夾中所有最近7天新增的所有文件列名單"
+    },
+    {
+        "index": 304,
+        "scenario": "將Documents資料夾中所有txt檔內容合併輸出成一個新的文字檔"
+    },
+    {
+        "index": 305,
+        "scenario": "將指定資料夾內所有影片檔案依建立日期由新到舊排序並列清單"
+    },
+    {
+        "index": 306,
+        "scenario": "將指定資料夾中所有mp3音樂依歌手名稱排序並匯出播放清單"
+    },
+    {
+        "index": 307,
+        "scenario": "搜尋系統中所有指定格式影片並搬移到新建立的影片資料夾"
+    },
+    {
+        "index": 308,
+        "scenario": "將Downloads資料夾內所有png檔案依檔案大小分類複製到對應子資料夾"
+    },
+    {
+        "index": 309,
+        "scenario": "將桌面所有Word文件依最後修改日期由新到舊排列列表並複製"
+    },
+    {
+        "index": 310,
+        "scenario": "將指定資料夾中所有CSV檔案合併成一個Excel工作簿並匯出"
+    },
+    {
+        "index": 311,
+        "scenario": "刪除Downloads資料夾中所有建立日期早於一年前的檔案並報告"
+    },
+    {
+        "index": 312,
+        "scenario": "將Documents資料夾所有ppt檔依建立日期排序並生成名稱清單"
+    },
+    {
+        "index": 313,
+        "scenario": "將指定資料夾中的PDF檔案依檔案大小由大到小排序並輸出列表"
+    },
+    {
+        "index": 314,
+        "scenario": "搜尋Downloads資料夾中所有包含「報告」字樣的PDF檔案清單"
+    },
+    {
+        "index": 315,
+        "scenario": "將Documents資料夾中所有Excel檔複製到外接硬碟並生成備份報告"
+    },
+    {
+        "index": 316,
+        "scenario": "搜尋Downloads資料夾內所有的圖片檔按檔名長度排序後輸出清單"
+    },
+    {
+        "index": 317,
+        "scenario": "將指定影片檔案過濾1分鐘內長度部分並另存成新影片檔案"
+    },
+    {
+        "index": 318,
+        "scenario": "列出Documents資料夾內所有影片檔案名稱及建立日期並匯出清單"
+    },
+    {
+        "index": 319,
+        "scenario": "將桌面指定資料夾內所有txt檔案合併成一個新檔案保存"
+    },
+    {
+        "index": 320,
+        "scenario": "將Downloads資料夾中全部PDF檔案依建立日期由新到舊排序"
+    },
+    {
+        "index": 321,
+        "scenario": "刪除Documents資料夾中所有檔案大小低於10KB的文件"
+    },
+    {
+        "index": 322,
+        "scenario": "將指定資料夾中文件依最後修改時間從新到舊排序並匯出列表"
+    },
+    {
+        "index": 323,
+        "scenario": "將指定路徑的所有影片依建立日期排序，擷取最近五個檔案"
+    },
+    {
+        "index": 324,
+        "scenario": "將Downloads資料夾中所有文字檔案內容轉成小寫並另存新檔"
+    },
+    {
+        "index": 325,
+        "scenario": "將Documents資料夾所有的Excel檔案匯入並合併成一個工作簿"
+    },
+    {
+        "index": 326,
+        "scenario": "將指定資料夾中所有JPEG檔案依解析度由高到低排序並複製前五"
+    },
+    {
+        "index": 327,
+        "scenario": "將桌面所有影片根據檔案大小排序並輸出至文字檔清單"
+    },
+    {
+        "index": 328,
+        "scenario": "搜尋指定郵件帳號中所有郵件附件下載至指定資料夾"
+    },
+    {
+        "index": 329,
+        "scenario": "將Downloads資料夾內所有PDF文件依檔案大小排序並列出前十名"
+    },
+    {
+        "index": 330,
+        "scenario": "將指定資料夾內所有Excel文件批次轉換為CSV格式並另存"
+    },
+    {
+        "index": 331,
+        "scenario": "列出桌面所有最近30天內修改的所有文檔檔案清單"
+    },
+    {
+        "index": 332,
+        "scenario": "將Documents資料夾中所有文字檔案依建立日期排序後複製備份"
+    },
+    {
+        "index": 333,
+        "scenario": "刪除Downloads資料夾中所有副檔名為.bak的備份檔案"
+    },
+    {
+        "index": 334,
+        "scenario": "將指定資料夾中所有影片檔案依修改日期排序並輸出至Excel"
+    },
+    {
+        "index": 335,
+        "scenario": "將Downloads資料夾中所有txt檔案中關鍵字\"error\"行匯出新檔"
+    },
+    {
+        "index": 336,
+        "scenario": "搜尋Documents資料夾內所有文件依檔案大小由大到小排序列出"
+    },
+    {
+        "index": 337,
+        "scenario": "將指定郵箱帳號中所有標題含「邀請」的郵件匯出發件人列表"
+    },
+    {
+        "index": 338,
+        "scenario": "將下載資料夾中所有音訊檔案依檔案大小排序並匯出名稱"
+    },
+    {
+        "index": 339,
+        "scenario": "將桌面中所有pdf檔案依檔案名稱排序並複製至指定資料夾"
+    },
+    {
+        "index": 340,
+        "scenario": "複製Documents資料夾中所有Word檔案到USB隨身碟資料夾"
+    },
+    {
+        "index": 341,
+        "scenario": "將Downloads資料夾中所有最新7天的檔案按類型分類列清單"
+    },
+    {
+        "index": 342,
+        "scenario": "將指定資料夾所有文字檔案內容合併輸出到一個新Excel檔案"
+    },
+    {
+        "index": 343,
+        "scenario": "搜尋系統所有mp4影片依建立時間排序並複製最新十個備份"
+    },
+    {
+        "index": 344,
+        "scenario": "列出Downloads資料夾所有AVI影片檔檔名與大小並輸出文字檔"
+    },
+    {
+        "index": 345,
+        "scenario": "整理桌面影片資料夾中所有檔案依建立日期由新到舊排序清單"
+    },
+    {
+        "index": 346,
+        "scenario": "將Documents資料夾內所有PDF檔案依檔案大小由大到小排列列出"
+    },
+    {
+        "index": 347,
+        "scenario": "將下載資料夾內所有zip文件解壓縮到同一路徑並產生成功列表"
+    },
+    {
+        "index": 348,
+        "scenario": "將指定圖片資料夾內所有png檔名依建立日期加前綴重命名"
+    },
+    {
+        "index": 349,
+        "scenario": "將Downloads資料夾所有影片按檔案修改日期排序並複製至備份"
+    },
+    {
+        "index": 350,
+        "scenario": "搜尋指定資料夾內所有jpg圖片依解析度分組並輸出清單"
+    },
+    {
+        "index": 351,
+        "scenario": "將所有Excel檔的Sheet1複製匯出為CSV檔案存於桌面"
+    },
+    {
+        "index": 352,
+        "scenario": "刪除Documents資料夾中所有檔案大小大於500MB的檔案"
+    },
+    {
+        "index": 353,
+        "scenario": "將Downloads資料夾所有PDF文件依建立日期分類並移動到子資料夾"
+    },
+    {
+        "index": 354,
+        "scenario": "將指定資料夾內所有文字檔案清除空白行後另存新檔"
+    },
+    {
+        "index": 355,
+        "scenario": "將桌面指定資料夾中所有文字檔案依檔案大小從小到大排序"
+    },
+    {
+        "index": 356,
+        "scenario": "複製Documents資料夾內所有Word文件依修改日期排列到新資料夾"
+    },
+    {
+        "index": 357,
+        "scenario": "搜尋所有郵件帳號內未讀郵件標題與寄件人並匯出清單"
+    },
+    {
+        "index": 358,
+        "scenario": "將指定資料夾中所有影片依檔案大小由小到大排序並列出前十個"
+    },
+    {
+        "index": 359,
+        "scenario": "將Downloads資料夾所有PDF檔案依建立日期由舊至新排序顯示"
+    },
+    {
+        "index": 360,
+        "scenario": "將Documents資料夾中所有Excel檔案匯出工作表名稱並輸出清單"
+    },
+    {
+        "index": 361,
+        "scenario": "將指定資料夾中所有TXT檔案中的數字全部刪除後另存新檔"
+    },
+    {
+        "index": 362,
+        "scenario": "將桌面上所有jpg圖片依解析度由高到低排序並複製前三名"
+    },
+    {
+        "index": 363,
+        "scenario": "搜尋指定資料夾內所有Excel檔案最後修改日期並匯出檔名列表"
+    },
+    {
+        "index": 364,
+        "scenario": "將指定資料夾中所有PDF合併成一個檔案並保存在桌面"
+    },
+    {
+        "index": 365,
+        "scenario": "將Downloads資料夾所有影片依檔案大小排序並複製最大三個檔案"
+    },
+    {
+        "index": 366,
+        "scenario": "列出Documents資料夾中所有pptx檔案名及建立日期保存至文檔"
+    },
+    {
+        "index": 367,
+        "scenario": "將Downloads資料夾內所有CSV檔案過濾指定欄位後匯出新檔"
+    },
+    {
+        "index": 368,
+        "scenario": "將指定資料夾內所有Word文件依檔案大小由大到小排序匯出清單"
+    },
+    {
+        "index": 369,
+        "scenario": "搜尋指定郵箱帳號內所有「提醒」字樣郵件標題並匯出完整清單"
+    },
+    {
+        "index": 370,
+        "scenario": "將特定資料夾中所有PDF檔案依最後修改日期排序並輸出清單"
+    },
+    {
+        "index": 371,
+        "scenario": "將文件資料夾內所有txt檔案內容備份並另存同名新檔"
+    },
+    {
+        "index": 372,
+        "scenario": "搜尋Downloads資料夾中所有最近三日內新增的所有檔案列表"
+    },
+    {
+        "index": 373,
+        "scenario": "將Documents資料夾中所有Excel檔案匯出為CSV格式並儲存桌面"
+    },
+    {
+        "index": 374,
+        "scenario": "將Downloads資料夾中所有文字檔案內的數字統一替換為0並存新檔"
+    },
+    {
+        "index": 375,
+        "scenario": "將指定郵箱帳號內所有未讀郵件匯出寄件人與主旨清單"
+    },
+    {
+        "index": 376,
+        "scenario": "將桌面指定資料夾中所有文件依建立日期從舊到新排列並複製"
+    },
+    {
+        "index": 377,
+        "scenario": "刪除Downloads資料夾中所有副檔名為.tmp且大於1MB的檔案"
+    },
+    {
+        "index": 378,
+        "scenario": "將Downloads資料夾內所有JPEG檔案依解像度分類並複製到子資料夾"
+    },
+    {
+        "index": 379,
+        "scenario": "列出Documents資料夾中所有ppt檔案名稱及檔案大小匯出清單"
+    },
+    {
+        "index": 380,
+        "scenario": "將指定資料夾內所有Excel文件依最後修改日期由新至舊排序"
+    },
+    {
+        "index": 381,
+        "scenario": "將桌面所有PDF檔案合併成一個pdf並且保存在桌面指定資料夾"
+    },
+    {
+        "index": 382,
+        "scenario": "將Downloads資料夾中所有影片依建立日期依序命名並輸出清單"
+    },
+    {
+        "index": 383,
+        "scenario": "搜尋指定郵箱帳號中附件超過10MB的郵件並匯出檔案大小清單"
+    },
+    {
+        "index": 384,
+        "scenario": "將Documents資料夾下所有文字檔內容寫入新Excel工作表中"
+    },
+    {
+        "index": 385,
+        "scenario": "將Downloads資料夾中所有PDF檔案頁數大於10的檔案列出"
+    },
+    {
+        "index": 386,
+        "scenario": "將指定影片檔案依指定秒數節點切割並儲存每段影片"
+    },
+    {
+        "index": 387,
+        "scenario": "將Downloads資料夾中所有Word文檔轉換為純文字檔並另存"
+    },
+    {
+        "index": 388,
+        "scenario": "搜尋桌面所有檔案名稱包含「2024」並列出其建立日期"
+    },
+    {
+        "index": 389,
+        "scenario": "將Downloads資料夾中的所有PDF文件壓縮成一檔案並儲存桌面"
+    },
+    {
+        "index": 390,
+        "scenario": "將Documents資料夾內Excel檔案中指定欄位匯出為CSV格式"
+    },
+    {
+        "index": 391,
+        "scenario": "列出系統內所有安裝應用程式名稱及版本並匯出成文字清單"
+    },
+    {
+        "index": 392,
+        "scenario": "將Downloads資料夾所有txt檔案包含特定關鍵字的檔案列出"
+    },
+    {
+        "index": 393,
+        "scenario": "將指定資料夾內所有影片檔案依檔案大小分組複製到對應資料夾"
+    },
+    {
+        "index": 394,
+        "scenario": "刪除Documents資料夾中所有建立日期早於2020年之前的檔案"
+    },
+    {
+        "index": 395,
+        "scenario": "將Downloads資料夾中所有PDF合併成單一文件並儲存桌面"
+    },
+    {
+        "index": 396,
+        "scenario": "將Documents資料夾中所有PPT檔案依建立日期由新到舊排序列表"
+    },
+    {
+        "index": 397,
+        "scenario": "將指定資料夾內所有Excel檔案匯入並整合成一個工作表"
+    },
+    {
+        "index": 398,
+        "scenario": "將桌面影片資料夾所有mp4檔案依檔案大小排序並複製最大五個"
+    },
+    {
+        "index": 399,
+        "scenario": "搜尋Downloads資料夾中含關鍵字「完成」的文字檔案列出檔名"
+    },
+    {
+        "index": 400,
+        "scenario": "將桌面指定資料夾中所有JPEG圖片依建立日期分類並複製備份"
+    },
+    {
+        "index": 401,
+        "scenario": "將Documents資料夾中所有txt檔案中指定字串替換後另存"
+    },
+    {
+        "index": 402,
+        "scenario": "將Downloads資料夾中所有PDF文件依檔案大小由大到小排序輸出"
+    },
+    {
+        "index": 403,
+        "scenario": "將指定影片檔按時長分割為數個片段並儲存桌面資料夾"
+    },
+    {
+        "index": 404,
+        "scenario": "將Documents資料夾中所有PPTX檔案依最後修改時間排序清單輸出"
+    },
+    {
+        "index": 405,
+        "scenario": "將所有Downloads資料夾內Excel檔案匯出為CSV檔並另存桌面"
+    },
+    {
+        "index": 406,
+        "scenario": "將指定資料夾內所有文字檔依內容長度由短到長排序並輸出"
+    },
+    {
+        "index": 407,
+        "scenario": "將下載資料夾所有的png圖片依建檔日期建立子資料夾歸類"
+    },
+    {
+        "index": 408,
+        "scenario": "列出Downloads資料夾內所有文件大小及建立日期生成清單"
+    },
+    {
+        "index": 409,
+        "scenario": "將Documents資料夾中所有Word文件依檔名字母排序並複製前10份"
+    },
+    {
+        "index": 410,
+        "scenario": "將指定資料夾中所有影片依最後修改時間由新至舊排列列清單"
+    },
+    {
+        "index": 411,
+        "scenario": "將Downloads資料夾内所有PDF檔案轉存為文字檔並存儲於桌面"
+    },
+    {
+        "index": 412,
+        "scenario": "刪除Downloads資料夾中所有超過6個月未使用的檔案"
+    },
+    {
+        "index": 413,
+        "scenario": "將Documents資料夾所有Excel文件匯出第一個Sheet為CSV檔"
+    },
+    {
+        "index": 414,
+        "scenario": "將Downloads資料夾內所有TXT檔案內容轉成UTF-8並另存新檔案"
+    },
+    {
+        "index": 415,
+        "scenario": "將指定郵箱帳號所有附件下載並依檔案類型分類保存"
+    },
+    {
+        "index": 416,
+        "scenario": "列出桌面所有mp3檔案名稱與檔案大小匯出文字檔"
+    },
+    {
+        "index": 417,
+        "scenario": "搜尋所有資料夾中大小超過200MB的影片檔案並輸出清單"
+    },
+    {
+        "index": 418,
+        "scenario": "將指定資料夾中所有jpg與png格式圖片合併複製至新資料夾"
+    },
+    {
+        "index": 419,
+        "scenario": "將Downloads資料夾中所有PDF文件合併並另存成新文檔"
+    },
+    {
+        "index": 420,
+        "scenario": "將指定資料夾中的所有文字檔內容複製至Excel新檔"
+    },
+    {
+        "index": 421,
+        "scenario": "將Documents資料夾中所有影片依檔案大小由大到小排序列出"
+    },
+    {
+        "index": 422,
+        "scenario": "將桌面指定資料夾中的所有excel檔案轉換為csv格式保存"
+    },
+    {
+        "index": 423,
+        "scenario": "列出Downloads資料夾內所有影片檔案依建立日期排序輸出清單"
+    },
+    {
+        "index": 424,
+        "scenario": "將指定郵箱中所有標題包含「發票」的郵件匯出寄件人資料"
+    },
+    {
+        "index": 425,
+        "scenario": "將Documents資料夾中所有PDF檔案依檔案大小由小至大排序"
+    },
+    {
+        "index": 426,
+        "scenario": "將Downloads資料夾內所有txt檔案依檔名長度排序並匯出清單"
+    },
+    {
+        "index": 427,
+        "scenario": "將特定資料夾內所有Excel檔案合併匯出為一個新xlsx檔"
+    },
+    {
+        "index": 428,
+        "scenario": "將Downloads資料夾中所有影片依檔案大小排序並複製前5個檔案"
+    },
+    {
+        "index": 429,
+        "scenario": "將桌面上的Excel檔案複製到工作報告資料夾中"
+    },
+    {
+        "index": 430,
+        "scenario": "從照片資料夾選取三張2023年7月的旅遊照片並壓縮成ZIP檔"
+    },
+    {
+        "index": 431,
+        "scenario": "將音樂資料夾內的MP3檔案全部移動到2024歌單資料夾"
+    },
+    {
+        "index": 432,
+        "scenario": "刪除備份資料夾中30天前的所有PDF檔案"
+    },
+    {
+        "index": 433,
+        "scenario": "將下載資料夾中大於5MB的影片複製到影片收藏資料夾"
+    },
+    {
+        "index": 434,
+        "scenario": "在學校作業資料夾中新建一個Word文件並保存為2024學期計畫"
+    },
+    {
+        "index": 435,
+        "scenario": "將影片資料夾中2024年3月的檔案依照日期重新命名"
+    },
+    {
+        "index": 436,
+        "scenario": "複製系統設定資料夾內的兩個TXT設定文件到備份裝置"
+    },
+    {
+        "index": 437,
+        "scenario": "刪除桌面資料夾中副檔名為.tmp且檔案大小小於1MB的文件"
+    },
+    {
+        "index": 438,
+        "scenario": "將會議資料夾中的PDF檔案匯出為單一資料夾的壓縮包"
+    },
+    {
+        "index": 439,
+        "scenario": "將桌面上名為 \"報告.docx\" 的檔案複製到 \"會議資料\" 資料夾中"
+    },
+    {
+        "index": 440,
+        "scenario": "刪除 \"放假計劃.txt\" 檔案，該檔案大小不超過1MB"
+    },
+    {
+        "index": 441,
+        "scenario": "將 \"客戶列表.xlsx\" 從 \"業務資料\" 資料夾移動到 \"客戶檔案\" 資料夾"
+    },
+    {
+        "index": 442,
+        "scenario": "建立一個新文字檔案，命名為 \"週報_2024_06.txt\"，並儲存在 \"工作筆記\" 資料夾內"
+    },
+    {
+        "index": 443,
+        "scenario": "將 \"會議錄音.mp3\" 從 \"錄音檔\" 資料夾拷貝到 \"備份資料\" 資料夾"
+    },
+    {
+        "index": 444,
+        "scenario": "將 \"照片_20230601.jpg\" 改名為 \"公司活動1.jpg\" 並保留在同一資料夾中"
+    },
+    {
+        "index": 445,
+        "scenario": "將 \"專案計畫.pdf\" 從 \"專案檔案\" 移動到 \"審核中\" 資料夾"
+    },
+    {
+        "index": 446,
+        "scenario": "刪除 \"舊版本設計.pptx\" 檔案，該檔案最後修改日期在2023年1月1日前"
+    },
+    {
+        "index": 447,
+        "scenario": "將 \"報表2023.xlsx\" 從 \"財務報表\" 資料夾複製到 \"年終報告\" 資料夾"
+    },
+    {
+        "index": 448,
+        "scenario": "建立一個新資料夾，命名為 \"新產品資料\"，並將桌面上的 \"產品簡介.pdf\" 移入該資料夾"
+    },
+    {
+        "index": 449,
+        "scenario": "將桌面上名為「工作報告.docx」的檔案複製到「專案A」資料夾"
+    },
+    {
+        "index": 450,
+        "scenario": "將「照片2023」資料夾內所有檔案壓縮成一個ZIP檔案"
+    },
+    {
+        "index": 451,
+        "scenario": "從「音樂收藏」資料夾中刪除所有MP3格式的檔案"
+    },
+    {
+        "index": 452,
+        "scenario": "將名為「會議記錄.txt」的檔案重新命名為「202404會議記錄.txt」"
+    },
+    {
+        "index": 453,
+        "scenario": "將「設計稿」資料夾中所有PNG檔案移動到「圖片編輯」資料夾"
+    },
+    {
+        "index": 454,
+        "scenario": "將桌面上的「待辦事項.xlsx」檔案複製到「備份檔案」資料夾"
+    },
+    {
+        "index": 455,
+        "scenario": "將「影片素材」資料夾中的所有MOV檔案轉移至「剪輯素材」資料夾"
+    },
+    {
+        "index": 456,
+        "scenario": "刪除「臨時檔案」資料夾內所有大於10MB的檔案"
+    },
+    {
+        "index": 457,
+        "scenario": "將桌面上「報價單_四月.pdf」檔案移動到「財務報表」資料夾"
+    },
+    {
+        "index": 458,
+        "scenario": "將「考試資料」資料夾中的所有PDF檔案重新命名，加前綴「考試_」"
+    },
+    {
+        "index": 459,
+        "scenario": "複製「客戶資料」資料夾內的「名單.xlsx」檔案到「重要文件」資料夾"
+    },
+    {
+        "index": 460,
+        "scenario": "將「下載文件」資料夾中的「產品說明.pptx」複製到「會議資料」資料夾"
+    },
+    {
+        "index": 461,
+        "scenario": "將桌面「計畫書.doc」檔案移動至「企劃案」資料夾"
+    },
+    {
+        "index": 462,
+        "scenario": "將「程式碼專案」資料夾中的所有.py檔案壓縮成ZIP檔案"
+    },
+    {
+        "index": 463,
+        "scenario": "將「法律文件」資料夾內「合約.pdf」檔案複製到「備份_2024」資料夾"
+    },
+    {
+        "index": 464,
+        "scenario": "刪除「暫存資料」資料夾中所有建立日期早於2023年12月的檔案"
+    },
+    {
+        "index": 465,
+        "scenario": "將「電子書」資料夾內所有EPUB格式檔案複製到「閱讀清單」資料夾"
+    },
+    {
+        "index": 466,
+        "scenario": "將桌面「會議簡報.pptx」檔案複製到「部門共享」資料夾"
+    },
+    {
+        "index": 467,
+        "scenario": "將「工作日"
+    },
+    {
+        "index": 468,
+        "scenario": "搜尋桌面上最近七天修改的PDF文件"
+    },
+    {
+        "index": 469,
+        "scenario": "將音樂資料夾中名字包含「演唱會」的檔案複製到備份磁碟"
+    },
+    {
+        "index": 470,
+        "scenario": "刪除報告資料夾中超過20MB的所有檔案"
+    },
+    {
+        "index": 471,
+        "scenario": "將照片資料夾裡2023年1月拍攝的圖片移至新資料夾"
+    },
+    {
+        "index": 472,
+        "scenario": "在影片資料夾中找到文件大小小於5MB的檔案並移動"
+    },
+    {
+        "index": 473,
+        "scenario": "複製下載的發票PDF檔到財務備份資料夾"
+    },
+    {
+        "index": 474,
+        "scenario": "將工作計畫資料夾裡所有.txt檔案重新命名，加入當前日期"
+    },
+    {
+        "index": 475,
+        "scenario": "搜尋音樂檔案中標題包含「爵士」的檔案並複製到新資料夾"
+    },
+    {
+        "index": 476,
+        "scenario": "將日誌檔資料夾中7天前修改過的檔案刪除"
+    },
+    {
+        "index": 477,
+        "scenario": "將電子書資料夾下格式為.epub的檔案移至讀取資料夾"
+    },
+    {
+        "index": 478,
+        "scenario": "尋找報告資料夾中修改日期為本月5號的Word檔案"
+    },
+    {
+        "index": 479,
+        "scenario": "複製演示資料夾中容量超過50MB的檔案到隨身碟資料夾"
+    },
+    {
+        "index": 480,
+        "scenario": "從備份資料夾搬移去年12月創建的Excel檔案到工作資料夾"
+    },
+    {
+        "index": 481,
+        "scenario": "刪除桌面上所有以“temp”開頭的檔案"
+    },
+    {
+        "index": 482,
+        "scenario": "從圖片資料夾複製所有GIF格式檔案到動畫資料夾"
+    },
+    {
+        "index": 483,
+        "scenario": "搜尋信件資料夾中標題含“會議記錄”的文件刪除"
+    },
+    {
+        "index": 484,
+        "scenario": "將教學資料夾裡所有PDF加密保護後存入加密資料夾"
+    },
+    {
+        "index": 485,
+        "scenario": "複製下載資料夾中副檔名為.zip的檔案移至壓縮檔資料夾"
+    },
+    {
+        "index": 486,
+        "scenario": "在影片資料夾內搜尋小於100MB且格式為.mov的影片檔案"
+    },
+    {
+        "index": 487,
+        "scenario": "刪除音樂資料夾中超過一年未播放的MP3檔案"
+    },
+    {
+        "index": 488,
+        "scenario": "將專案報告資料夾裡所有.docx檔案複製到存檔資料夾"
+    },
+    {
+        "index": 489,
+        "scenario": "搜尋桌面資料夾中創建於今天的所有檔案並備份"
+    },
+    {
+        "index": 490,
+        "scenario": "將照片資料夾中寬度"
+    },
+    {
+        "index": 491,
+        "scenario": "新增名為「會議紀錄2024」的空白文件"
+    },
+    {
+        "index": 492,
+        "scenario": "將「行事曆提醒.docx」複製到「工作報告」資料夾內"
+    },
+    {
+        "index": 493,
+        "scenario": "調整螢幕解析度為1920x1080並保存設定"
+    },
+    {
+        "index": 494,
+        "scenario": "關閉所有瀏覽器視窗後重新開啟首頁為news網站"
+    },
+    {
+        "index": 495,
+        "scenario": "搜尋「台北明天天氣」並顯示前三條結果"
+    },
+    {
+        "index": 496,
+        "scenario": "啟動音樂播放器並播放播放清單「晨間歌曲」"
+    },
+    {
+        "index": 497,
+        "scenario": "新增「客戶名單」Excel檔並設定A1儲存格為姓名"
+    },
+    {
+        "index": 498,
+        "scenario": "將「假期計劃.xlsx」檔案從桌面移動到「旅遊資料」資料夾"
+    },
+    {
+        "index": 499,
+        "scenario": "設定電腦時間為2024年6月15日15:00並確認同步正確"
+    },
+    {
+        "index": 500,
+        "scenario": "開啟郵件應用並搜尋標題含「發票」的郵件"
+    },
+    {
+        "index": 501,
+        "scenario": "將文件「報價單2024.doc」列印並使用雙面列印模式"
+    },
+    {
+        "index": 502,
+        "scenario": "調整系統音量為50%並靜音夜間通知"
+    },
+    {
+        "index": 503,
+        "scenario": "刪除下載資料夾中的「安裝包.zip」並清空回收筒"
+    },
+    {
+        "index": 504,
+        "scenario": "設定Wi-Fi連線至SSID「HomeNetwork」並輸入密碼12345678"
+    },
+    {
+        "index": 505,
+        "scenario": "將剪貼簿內容貼至新建記事本檔後儲存為「待辦事項.txt」"
+    },
+    {
+        "index": 506,
+        "scenario": "開啟瀏覽器設定並清除七日內的瀏覽紀錄"
+    },
+    {
+        "index": 507,
+        "scenario": "將「產品介紹.pptx」投影片複製到新簡報檔並另存為「提案用.pptx」"
+    },
+    {
+        "index": 508,
+        "scenario": "將「會談錄音.mp3」檔案從手機複製至電腦「語音資料」資料夾"
+    },
+    {
+        "index": 509,
+        "scenario": "設置桌面背景為「夏日風景.jpg」並套用顯示模式為拉伸"
+    },
+    {
+        "index": 510,
+        "scenario": "啟動防毒軟體並執行快速掃描完成後關閉程式"
+    },
+    {
+        "index": 511,
+        "scenario": "在記事本內新增清單項目「購物清單」並加入五項商品名稱"
+    },
+    {
+        "index": 512,
+        "scenario": "將「客戶電話.txt」檔案重新命名為「聯絡資料.txt」"
+    },
+    {
+        "index": 513,
+        "scenario": "搜尋本機檔案內容包含「專案報告」並列出前十筆檔名"
+    },
+    {
+        "index": 514,
+        "scenario": "建立新的使用者帳號名稱為「訪客」權限為標準用戶"
+    },
+    {
+        "index": 515,
+        "scenario": "開啟兩個瀏覽器分頁，分別打開新聞與電子郵件網站"
+    },
+    {
+        "index": 516,
+        "scenario": "將簡報中第三頁文字字型改為Times New Roman大小14點"
+    },
+    {
+        "index": 517,
+        "scenario": "新增一個資料夾命名為「稅務文件2024」並設定唯讀屬性"
+    },
+    {
+        "index": 518,
+        "scenario": "修改「會議計劃.docx」檔案的作者屬性為張三"
+    },
+    {
+        "index": 519,
+        "scenario": "將桌面上的「生日照片.jpg」移動到外接硬碟的「照片備份」資料夾"
+    },
+    {
+        "index": 520,
+        "scenario": "關閉所有非必要的背景程式以提升系統效能"
+    },
+    {
+        "index": 521,
+        "scenario": "搜尋系統日誌中2024年5月15日至5月20日期間的錯誤訊息"
+    },
+    {
+        "index": 522,
+        "scenario": "複製電子郵件附件「合約草案.pdf」並儲存到「合同」資料夾"
+    },
+    {
+        "index": 523,
+        "scenario": "將瀏覽器首頁設定為https://www.example.com並儲存設定"
+    },
+    {
+        "index": 524,
+        "scenario": "將「商品清單.xlsx」中A欄數據複製並貼到B欄"
+    },
+    {
+        "index": 525,
+        "scenario": "新增「使用手冊」PDF檔並設定密碼保護"
+    },
+    {
+        "index": 526,
+        "scenario": "調整電源管理設定中待機時間為10分鐘後啟用"
+    },
+    {
+        "index": 527,
+        "scenario": "將「會議邀請.eml」郵件轉寄給manager@example.com"
+    },
+    {
+        "index": 528,
+        "scenario": "將「租屋合約.txt」檔案內容複製到新郵件中並寄出"
+    },
+    {
+        "index": 529,
+        "scenario": "啟動銀幕截圖工具並截取目前視窗畫面"
+    },
+    {
+        "index": 530,
+        "scenario": "搜尋本機「sale」關鍵字並刪除所有結果文件"
+    },
+    {
+        "index": 531,
+        "scenario": "關閉所有開啟的應用程式並重啟電腦"
+    },
+    {
+        "index": 532,
+        "scenario": "設定預設列印機為「Office_LaserJet_Pro」並列印測試頁"
+    },
+    {
+        "index": 533,
+        "scenario": "啟動VPN連線使用伺服器「Asia_Taipei」並確認連線成功"
+    },
+    {
+        "index": 534,
+        "scenario": "新增Outlook日曆事件標題為「團隊會議」時間為2024/06/10下午3點"
+    },
+    {
+        "index": 535,
+        "scenario": "將Chrome書籤「工作常用」資料夾匯出並儲存至「備份」資料夾"
+    },
+    {
+        "index": 536,
+        "scenario": "在純文字檔「計畫.txt」內搜尋「截止日期」並標示所有位置"
+    },
+    {
+        "index": 537,
+        "scenario": "將登入密碼更改為指定字串「NewPass2024!」並保存"
+    },
+    {
+        "index": 538,
+        "scenario": "關閉所有應用程式，刪除臨時檔案並空出50MB以上硬碟空間"
+    },
+    {
+        "index": 539,
+        "scenario": "開啟掃描程式並掃描文件儲存為「合同掃描.pdf」至桌面"
+    },
+    {
+        "index": 540,
+        "scenario": "設定桌面圖示大小為中等並排列至最左侧"
+    },
+    {
+        "index": 541,
+        "scenario": "將「行事曆週報.docx」列印並使用彩色模式"
+    },
+    {
+        "index": 542,
+        "scenario": "移動「影音教材.mp4」檔案到外接USB裝置根目錄"
+    },
+    {
+        "index": 543,
+        "scenario": "設定郵件應用通知為不顯示預覽內容並開啟提示音"
+    },
+    {
+        "index": 544,
+        "scenario": "刪除快捷方式「遊戲啟動器.lnk」並重新建立桌面圖示"
+    },
+    {
+        "index": 545,
+        "scenario": "新增系統環境變數名稱「JAVA_HOME」值為「C:\\Program Files\\Java」"
+    },
+    {
+        "index": 546,
+        "scenario": "將Chrome瀏覽器所有已啟用擴充套件列出並儲存成清單檔"
+    },
+    {
+        "index": 547,
+        "scenario": "啟動遠端桌面連線至IP地址192.168.1.100並登入指定帳號"
+    },
+    {
+        "index": 548,
+        "scenario": "複製桌面「財務報表2023.xlsx」並重新命名為「財務報表2024.xlsx」"
+    },
+    {
+        "index": 549,
+        "scenario": "關閉螢幕自動關閉功能並將亮度調整至60%"
+    },
+    {
+        "index": 550,
+        "scenario": "搜尋系統字體列表中是否存在字型「微軟正黑體」並回報結果"
+    },
+    {
+        "index": 551,
+        "scenario": "開啟記事本並粘貼剪貼簿內容後以UTF-8編碼儲存"
+    },
+    {
+        "index": 552,
+        "scenario": "將收件匣中所有未讀郵件標記為已讀並同步郵件伺服器"
+    },
+    {
+        "index": 553,
+        "scenario": "啟用系統防火牆並設定規則封鎖埠號8080傳入流量"
+    },
+    {
+        "index": 554,
+        "scenario": "將「支出報告.xlsx」中2024年1月資料複製至「總表」工作表"
+    },
+    {
+        "index": 555,
+        "scenario": "新增Windows使用者桌面捷徑以開啟「計算機」應用程式"
+    },
+    {
+        "index": 556,
+        "scenario": "將VPN連線設定檔匯入並激活名為「WorkVPN」設定"
+    },
+    {
+        "index": 557,
+        "scenario": "刪除「備份照片」資料夾中2023年10月前之所有檔案"
+    },
+    {
+        "index": 558,
+        "scenario": "開啟文字編輯器並將「會議紀錄.txt」檔案內容複製至新文件"
+    },
+    {
+        "index": 559,
+        "scenario": "將Chrome瀏覽器預設下載路徑修改為「D:\\下載檔案」"
+    },
+    {
+        "index": 560,
+        "scenario": "設定系統語言為繁體中文並重啟系統使設定生效"
+    },
+    {
+        "index": 561,
+        "scenario": "將「員工名單2024.csv」轉換成Excel格式並另存新檔"
+    },
+    {
+        "index": 562,
+        "scenario": "新增桌面捷徑名為「線上會議」連結到指定URL"
+    },
+    {
+        "index": 563,
+        "scenario": "搜尋所有圖片檔中解析度高於1920x1080的檔案並顯示列表"
+    },
+    {
+        "index": 564,
+        "scenario": "將「課程筆記.docx」內容複製並貼入新建郵件並設定收件人"
+    },
+    {
+        "index": 565,
+        "scenario": "啟動系統更新並下載最新的安全性補丁包"
+    },
+    {
+        "index": 566,
+        "scenario": "將瀏覽器書籤「學習資源」匯入並整理至新資料夾"
+    },
+    {
+        "index": 567,
+        "scenario": "關閉瀏覽器中所有已開啟分頁並清除快取檔案"
+    },
+    {
+        "index": 568,
+        "scenario": "複製「專案計劃2023.pdf」檔案並使新檔名稱含當前年份"
+    },
+    {
+        "index": 569,
+        "scenario": "調整電子郵件簽名為包含姓名、職稱與聯絡電話"
+    },
+    {
+        "index": 570,
+        "scenario": "建立新壓縮檔「資料備份.zip」並加入「文檔資料夾」內容"
+    },
+    {
+        "index": 571,
+        "scenario": "變更使用者桌布為「海洋風景.jpg」並設定為填滿模式"
+    },
+    {
+        "index": 572,
+        "scenario": "搜尋指定資料夾中所有空白檔案並刪除"
+    },
+    {
+        "index": 573,
+        "scenario": "下載指定網址的PDF文件並儲存於「下載」資料夾下"
+    },
+    {
+        "index": 574,
+        "scenario": "將「作業說明.doc」檔案設定只讀屬性並鎖定修改權限"
+    },
+    {
+        "index": 575,
+        "scenario": "新增Outlook郵件規則將「客訴」關鍵字郵件移至「客戶」資料夾"
+    },
+    {
+        "index": 576,
+        "scenario": "將電腦時區更改為「台北標準時間」並同步時間伺服器"
+    },
+    {
+        "index": 577,
+        "scenario": "關閉系統中使用中的藍牙裝置並解除配對"
+    },
+    {
+        "index": 578,
+        "scenario": "啟動命令提示字元並執行網路連線狀態檢查指令"
+    },
+    {
+        "index": 579,
+        "scenario": "複製桌面上的「履歷表.docx」並更名為「履歷表_修改版.docx」"
+    },
+    {
+        "index": 580,
+        "scenario": "設定自動備份功能排程為每日凌晨2點啟動"
+    },
+    {
+        "index": 581,
+        "scenario": "將「旅遊攻略.pdf」文字內容複製到新建記事本內儲存"
+    },
+    {
+        "index": 582,
+        "scenario": "啟動影片播放器並播放指定目錄中最新的影片檔案"
+    },
+    {
+        "index": 583,
+        "scenario": "建立新的資料夾「學校作業」於文件目錄中並設定共享權限"
+    },
+    {
+        "index": 584,
+        "scenario": "將「訂單名稱.xlsx」指定到印表機並設定雙面列印"
+    },
+    {
+        "index": 585,
+        "scenario": "刪除系統中所有「.tmp」副檔名的臨時檔案並回收至垃圾桶"
+    },
+    {
+        "index": 586,
+        "scenario": "設定瀏覽器Cookies策略為僅允許第一方Cookies"
+    },
+    {
+        "index": 587,
+        "scenario": "將「教學影片.mov」檔案轉碼為MP4格式並儲存至「轉檔影片」資料夾"
+    },
+    {
+        "index": 588,
+        "scenario": "啟動郵件應用程式並撰寫新郵件主旨為「會議通知」"
+    },
+    {
+        "index": 589,
+        "scenario": "將Chrome瀏覽器擴充套件暫時停用並重新啟動瀏覽器"
+    },
+    {
+        "index": 590,
+        "scenario": "搜尋系統日誌中最後十筆登入失敗事件並匯出"
+    },
+    {
+        "index": 591,
+        "scenario": "在電子郵件中新增附件檔案「報價單2024.pdf」並準備發送"
+    },
+    {
+        "index": 592,
+        "scenario": "新增Excel工作表並命名為「預算彙整」"
+    },
+    {
+        "index": 593,
+        "scenario": "將網頁中開啟的所有分頁儲存成「工作標籤」資料夾"
+    },
+    {
+        "index": 594,
+        "scenario": "設定電池電量低於20%時自動進入省電模式"
+    },
+    {
+        "index": 595,
+        "scenario": "關閉所有非系統啟動的自動執行程式以節省記憶體"
+    },
+    {
+        "index": 596,
+        "scenario": "刪除桌面上所有.exe執行檔並將結果以清單回報"
+    },
+    {
+        "index": 597,
+        "scenario": "將「出差行程.xlsx」內的客戶資料依照城市排序"
+    },
+    {
+        "index": 598,
+        "scenario": "新增筆記應用程式中的標籤「待辦事項」並建立一條任務"
+    },
+    {
+        "index": 599,
+        "scenario": "開啟瀏覽器並搜尋「最新金融新聞」篩選過去一週內文章"
+    },
+    {
+        "index": 600,
+        "scenario": "將「財務報表2024.xlsx」工作表匯出為CSV檔案"
+    },
+    {
+        "index": 601,
+        "scenario": "啟用螢幕鎖定功能，設定密碼為8位數含英數字"
+    },
+    {
+        "index": 602,
+        "scenario": "調整滑鼠指標速度至最大靈敏度並套用設定"
+    },
+    {
+        "index": 603,
+        "scenario": "建立快捷鍵Ctrl+Alt+N用於開啟記事本應用程式"
+    },
+    {
+        "index": 604,
+        "scenario": "從桌面「客戶數據庫.accdb」資料庫匯出客戶名稱列表"
+    },
+    {
+        "index": 605,
+        "scenario": "將「訂單確認.eml」郵件標記為重要並移至「已處理」資料夾"
+    },
+    {
+        "index": 606,
+        "scenario": "關閉系統通知中所有應用程式的提示聲"
+    },
+    {
+        "index": 607,
+        "scenario": "添加桌面背景畫面設定排除中間有水印的圖片"
+    },
+    {
+        "index": 608,
+        "scenario": "搜尋指定「文件」資料夾下修改日期為本週的檔案"
+    },
+    {
+        "index": 609,
+        "scenario": "將「工作報告」資料夾壓縮成zip檔案並儲存於桌面"
+    },
+    {
+        "index": 610,
+        "scenario": "啟動PDF閱讀器並開啟「使用說明書2024.pdf」"
+    },
+    {
+        "index": 611,
+        "scenario": "設定系統字體大小為12並套用至所有視窗文字"
+    },
+    {
+        "index": 612,
+        "scenario": "開啟命令行介面並執行IP位址查詢指令"
+    },
+    {
+        "index": 613,
+        "scenario": "刪除所有下載資料夾中副檔名為.zip的檔案"
+    },
+    {
+        "index": 614,
+        "scenario": "彈出並關閉DVD光碟機托盤"
+    },
+    {
+        "index": 615,
+        "scenario": "將回收筒清空且不保留還原選項"
+    },
+    {
+        "index": 616,
+        "scenario": "將「專案簡報.pptx」匯出成PDF檔並儲存於「簡報資料夾」"
+    },
+    {
+        "index": 617,
+        "scenario": "將桌面隱藏所有快捷方式圖示並保持桌面整潔"
+    },
+    {
+        "index": 618,
+        "scenario": "關閉所有影像編輯器應用程式並保存工作檔案"
+    },
+    {
+        "index": 619,
+        "scenario": "輸入指定Wi-Fi密碼「Secure2024」連接名為「OfficeNet」無線網路"
+    },
+    {
+        "index": 620,
+        "scenario": "設定螢幕自動休眠時間為15分鐘並儲存設定"
+    },
+    {
+        "index": 621,
+        "scenario": "將「影片剪輯.mp4」檔案複製到「影片備份」外接硬碟"
+    },
+    {
+        "index": 622,
+        "scenario": "更新作業系統至最新版本並重啟電腦完成更新"
+    },
+    {
+        "index": 623,
+        "scenario": "利用系統備份工具備份「文件」資料夾至外部硬碟"
+    },
+    {
+        "index": 624,
+        "scenario": "取消已排定今天下午2點的系統自動更新排程"
+    },
+    {
+        "index": 625,
+        "scenario": "將PDF檔中的「財務報告2023.pdf」匯入註解軟體並標記重點"
+    },
+    {
+        "index": 626,
+        "scenario": "彈出並重新插入USB隨身碟以重新讀取裝置"
+    },
+    {
+        "index": 627,
+        "scenario": "搜尋桌面所有上週新增的Excel檔案並列出檔名"
+    },
+    {
+        "index": 628,
+        "scenario": "重新開機後自動登入使用者帳號「Alice」"
+    },
+    {
+        "index": 629,
+        "scenario": "關閉所有已開啟的視窗並切換至桌面顯示"
+    },
+    {
+        "index": 630,
+        "scenario": "在文書編輯器建立新文件並輸入標題「計畫書2024」"
+    },
+    {
+        "index": 631,
+        "scenario": "將Chrome瀏覽器所有書籤匯出成HTML格式檔案保存"
+    },
+    {
+        "index": 632,
+        "scenario": "設定默認打印機的紙張大小為A4並儲存"
+    },
+    {
+        "index": 633,
+        "scenario": "將「產品目錄.pdf」在PDF檢視器中放大至150%"
+    },
+    {
+        "index": 634,
+        "scenario": "新增Windows防火牆例外規則允許程式port 443通過"
+    },
+    {
+        "index": 635,
+        "scenario": "開啟系統設定頁面並將日期格式設定為yyyy-MM-dd"
+    },
+    {
+        "index": 636,
+        "scenario": "複製「常用程式列表.txt」到USB隨身碟根目錄"
+    },
+    {
+        "index": 637,
+        "scenario": "開啟所有已儲存的工作文檔並準備編輯"
+    },
+    {
+        "index": 638,
+        "scenario": "使用系統內建工具壓縮「項目文件」資料夾成rar文件"
+    },
+    {
+        "index": 639,
+        "scenario": "關閉螢幕時啟動螢幕保護程式並設定等待時間為5分鐘"
+    },
+    {
+        "index": 640,
+        "scenario": "啟動內建的語音助手並進行語音指令測試"
+    },
+    {
+        "index": 641,
+        "scenario": "新增一個容量10GB的虛擬磁碟並掛載於系統內"
+    },
+    {
+        "index": 642,
+        "scenario": "複製桌面上的「題庫.xlsx」檔案並重命名為「題庫_備份.xlsx」"
+    },
+    {
+        "index": 643,
+        "scenario": "透過遠端桌面關閉目標電腦並確認關機完成"
+    },
+    {
+        "index": 644,
+        "scenario": "新增Outlook郵件規則將標題包含「報告」郵件標記星號"
+    },
+    {
+        "index": 645,
+        "scenario": "將下載資料夾中2023年12月之前的檔案移除"
+    },
+    {
+        "index": 646,
+        "scenario": "將多個PDF檔案合併成一個名為「年度文件合併.pdf」的檔案"
+    },
+    {
+        "index": 647,
+        "scenario": "關閉系統的螢幕鍵盤並禁用自動啟動功能"
+    },
+    {
+        "index": 648,
+        "scenario": "將系統主題由暗色模式切換為亮色模式並套用"
+    },
+    {
+        "index": 649,
+        "scenario": "設定Chrome瀏覽器下載檔預設資料夾為「文件\\下載」"
+    },
+    {
+        "index": 650,
+        "scenario": "封鎖無線網路SSID「publicWiFi」並刪除保存的連線資訊"
+    },
+    {
+        "index": 651,
+        "scenario": "新增資料夾「學生作業2024」於桌面並建立子資料夾「數學」"
+    },
+    {
+        "index": 652,
+        "scenario": "將郵件應用捷徑新增至桌面快捷方式"
+    },
+    {
+        "index": 653,
+        "scenario": "關閉目前所有執行中的視訊會議應用程式"
+    },
+    {
+        "index": 654,
+        "scenario": "搜尋並刪除系統中重複檔名的圖檔並列出刪除清單"
+    },
+    {
+        "index": 655,
+        "scenario": "重設印表機設定為出廠預設並重啟印表機服務"
+    },
+    {
+        "index": 656,
+        "scenario": "將指定資料夾內所有.docx檔案複製到另一個資料夾"
+    },
+    {
+        "index": 657,
+        "scenario": "關閉瀏覽器中所有已開啟的彈出視窗廣告"
+    },
+    {
+        "index": 658,
+        "scenario": "啟動螢幕錄影工具設定錄製範圍為主畫面"
+    },
+    {
+        "index": 659,
+        "scenario": "將指定電腦使用者密碼更換為包含大寫字母與符號的新密碼"
+    },
+    {
+        "index": 660,
+        "scenario": "將系統輸入法設定預設為注音輸入法並保存"
+    },
+    {
+        "index": 661,
+        "scenario": "新增Windows防火牆例外規則允許遠端桌面連線"
+    },
+    {
+        "index": 662,
+        "scenario": "清理系統垃圾檔案並將使用空間回復至少2GB"
+    },
+    {
+        "index": 663,
+        "scenario": "將「課程表.xlsx」匯入行事曆並建立事件提醒"
+    },
+    {
+        "index": 664,
+        "scenario": "關閉系統中所有自動執行的非必要應用程式"
+    },
+    {
+        "index": 665,
+        "scenario": "將指定目錄內所有圖片檔轉換為JPG格式並儲存"
+    },
+    {
+        "index": 666,
+        "scenario": "開啟郵件程式撰寫新郵件並加上兩個收件人地址"
+    },
+    {
+        "index": 667,
+        "scenario": "調整螢幕色彩校正設定並儲存新配置檔"
+    },
+    {
+        "index": 668,
+        "scenario": "將「報價清單2024.xlsx」設成唯讀且禁止複製刪除"
+    },
+    {
+        "index": 669,
+        "scenario": "重啟系統網路服務以重新取得IP地址"
+    },
+    {
+        "index": 670,
+        "scenario": "在系統通知中心新增快捷操作按鈕以開啟設定應用程式"
+    },
+    {
+        "index": 671,
+        "scenario": "將桌面背景圖片切換成指定網路圖片並立即更新"
+    },
+    {
+        "index": 672,
+        "scenario": "設置新的系統還原點並命名為「更新前備份」"
+    },
+    {
+        "index": 673,
+        "scenario": "關閉系統自動更新以避免深夜重新啟動"
+    },
+    {
+        "index": 674,
+        "scenario": "將截圖檔案「屏幕截圖_0620.png」重新命名並分類儲存"
+    },
+    {
+        "index": 675,
+        "scenario": "啟動郵件應用並批次標記所有2024年6月的郵件為已讀"
+    },
+    {
+        "index": 676,
+        "scenario": "將桌面「招聘計劃.docx」透過郵件發送給hr@example.com"
+    },
+    {
+        "index": 677,
+        "scenario": "複製「產品說明.txt」內容並保存至新文字檔「說明副本.txt」"
+    },
+    {
+        "index": 678,
+        "scenario": "啟用系統的自動清理功能並設定一週一次執行"
+    },
+    {
+        "index": 679,
+        "scenario": "創建新的PowerPoint簡報並插入標題頁及目錄頁"
+    },
+    {
+        "index": 680,
+        "scenario": "將日曆事件「年度審核」設定為重複發生每年6月1日"
+    },
+    {
+        "index": 681,
+        "scenario": "重新安裝並啟用系統的網路驅動程式以修復連接問題"
+    },
+    {
+        "index": 682,
+        "scenario": "在系統備份中排除指定資料夾「臨時檔案」不含備份"
+    },
+    {
+        "index": 683,
+        "scenario": "將桌面圖示全部排列成網格並從左上至右下排序"
+    },
+    {
+        "index": 684,
+        "scenario": "設定新USB裝置自動開啟檔案總管並顯示內容"
+    },
+    {
+        "index": 685,
+        "scenario": "將郵件「訂單確認.eml」另存成PDF格式並備份"
+    },
+    {
+        "index": 686,
+        "scenario": "新增文字編輯器快捷鍵Ctrl+S用於儲存檔案"
+    },
+    {
+        "index": 687,
+        "scenario": "將系統通知中的「電池電量低」警告關閉"
+    },
+    {
+        "index": 688,
+        "scenario": "關閉系統自動登入功能需手動輸入密碼"
+    },
+    {
+        "index": 689,
+        "scenario": "創建一個1GB大小的空白文字檔「測試文件.txt」於桌面"
+    },
+    {
+        "index": 690,
+        "scenario": "設定觸控板靈敏度為中間值並套用系統設定"
+    },
+    {
+        "index": 691,
+        "scenario": "將指定資料夾中CSV檔案合併成單一Excel檔案"
+    },
+    {
+        "index": 692,
+        "scenario": "啟動系統資源監視器並截取CPU與記憶體使用狀態"
+    },
+    {
+        "index": 693,
+        "scenario": "將Chrome瀏覽器代理伺服器設定為127.0.0.1:8080並啟用"
+    },
+    {
+        "index": 694,
+        "scenario": "將「家庭預算.xlsx」文件分享給指定使用者且限閱權限"
+    },
+    {
+        "index": 695,
+        "scenario": "為PDF檔案「合約.pdf」設定數位簽章並加密內容"
+    },
+    {
+        "index": 696,
+        "scenario": "啟動系統音效測試並調整主音量為80%"
+    },
+    {
+        "index": 697,
+        "scenario": "刪除桌面舊版軟體安裝檔案並清空回收站"
+    },
+    {
+        "index": 698,
+        "scenario": "將所有系統硬碟檔案建立索引以加速搜尋功能"
+    },
+    {
+        "index": 699,
+        "scenario": "新增桌面捷徑以開啟指定資料夾「下載資料」"
+    },
+    {
+        "index": 700,
+        "scenario": "設定系統日期格式為dd/MM/yyyy並重新啟動生效"
+    },
+    {
+        "index": 701,
+        "scenario": "刪除「會議影片.mp4」檔案並確認回收桶已清空"
+    },
+    {
+        "index": 702,
+        "scenario": "在影片播放器中設定音量為40%並啟用字幕顯示"
+    },
+    {
+        "index": 703,
+        "scenario": "將桌面上「週報.docx」文件內容複製到剪貼簿"
+    },
+    {
+        "index": 704,
+        "scenario": "啟動文字轉語音功能並朗讀剪貼簿內容"
+    },
+    {
+        "index": 705,
+        "scenario": "將所有Word檔案從「工作資料」資料夾複製到桌面"
+    },
+    {
+        "index": 706,
+        "scenario": "更新系統顯示驅動程式至最新版本並重啟電腦"
+    },
+    {
+        "index": 707,
+        "scenario": "清除系統中Chrome瀏覽器的所有保留Cookie"
+    },
+    {
+        "index": 708,
+        "scenario": "將下載資料夾中最新檔案移動至文件目錄"
+    },
+    {
+        "index": 709,
+        "scenario": "設定系統音量為靜音並關閉所有音效提示"
+    },
+    {
+        "index": 710,
+        "scenario": "關閉背景自動同步服務並限制網路流量消耗"
+    },
+    {
+        "index": 711,
+        "scenario": "將指定資料夾「公告文件」中所有PDF檔壓縮"
+    },
+    {
+        "index": 712,
+        "scenario": "調整系統螢幕文字大小為150%並套用所有視窗"
+    },
+    {
+        "index": 713,
+        "scenario": "啟動記事本應用並新增檔案命名為「待辦清單」"
+    },
+    {
+        "index": 714,
+        "scenario": "將桌面上最新下載的圖片設為桌布並設置為置中"
+    },
+    {
+        "index": 715,
+        "scenario": "從瀏覽器複製目前網址並貼至新郵件正文中"
+    },
+    {
+        "index": 716,
+        "scenario": "啟用夜間模式並設定自動啟用時間為晚上8點"
+    },
+    {
+        "index": 717,
+        "scenario": "將所有音樂檔複製到外接裝置並建立播放清單"
+    },
+    {
+        "index": 718,
+        "scenario": "新增電子郵件聯絡人姓名為李明電子郵件為liming@mail.com"
+    },
+    {
+        "index": 719,
+        "scenario": "複製「專案文件.docx」到U盤並確認檔案完整性"
+    },
+    {
+        "index": 720,
+        "scenario": "將指定文件夾內所有.word檔案批量改成只讀"
+    },
+    {
+        "index": 721,
+        "scenario": "關閉「Windows Defender」防毒即時保護功能"
+    },
+    {
+        "index": 722,
+        "scenario": "啟動Windows系統還原回復至2024年6月1日還原點"
+    },
+    {
+        "index": 723,
+        "scenario": "將指定PDF檔案匯入文件管理軟體並新增標籤"
+    },
+    {
+        "index": 724,
+        "scenario": "新增系統使用者「Tom」帳號並設定密碼及標準權限"
+    },
+    {
+        "index": 725,
+        "scenario": "將下載資料夾中大於100MB檔案移動到外接硬碟"
+    },
+    {
+        "index": 726,
+        "scenario": "開啟Microsoft Teams並加入指定會議ID以參加會議"
+    },
+    {
+        "index": 727,
+        "scenario": "刪除桌面上的重複圖片檔並整理資料夾內容"
+    },
+    {
+        "index": 728,
+        "scenario": "新增Windows快速鍵Ctrl+Shift+S設定為截圖功能"
+    },
+    {
+        "index": 729,
+        "scenario": "開啟Windows計算機並新增快捷方式至桌面"
+    },
+    {
+        "index": 730,
+        "scenario": "在郵件應用中建立郵件範本標題為「回覆範本」"
+    },
+    {
+        "index": 731,
+        "scenario": "將作業系統更新設定改為自動下載但手動安裝"
+    },
+    {
+        "index": 732,
+        "scenario": "將桌面「工作筆記.txt」透過檔案分享功能發送給同事"
+    },
+    {
+        "index": 733,
+        "scenario": "將系統語言切換成英文並確保所有介面翻譯完成"
+    },
+    {
+        "index": 734,
+        "scenario": "在檔案管理器中對指定資料夾內所有檔案按建立日期排序"
+    },
+    {
+        "index": 735,
+        "scenario": "啟動系統日誌並過濾出所有2024年6月的系統事件"
+    },
+    {
+        "index": 736,
+        "scenario": "新增警示音效並設定音量大小為70%"
+    },
+    {
+        "index": 737,
+        "scenario": "關閉網路連線中不活躍的VPN連線並刪除配置檔"
+    },
+    {
+        "index": 738,
+        "scenario": "設置系統防火牆只允許特定程式通過網路連線"
+    },
+    {
+        "index": 739,
+        "scenario": "將「客戶名單.csv」檔案匯入資料庫並確認匯入成功"
+    },
+    {
+        "index": 740,
+        "scenario": "將指定檔案夾內所有文字檔合併成單一文檔並保存"
+    },
+    {
+        "index": 741,
+        "scenario": "啟動系統畫面錄製並錄製5分鐘後自動儲存檔案"
+    },
+    {
+        "index": 742,
+        "scenario": "開啟文字編輯器並載入「研討會筆記.txt」檔案"
+    },
+    {
+        "index": 743,
+        "scenario": "將「設計圖.png」檔案另存為jpeg格式並保存在指定資料夾"
+    },
+    {
+        "index": 744,
+        "scenario": "關閉所有視訊播放應用程式並釋放系統資源"
+    },
+    {
+        "index": 745,
+        "scenario": "啟用系統中所有重要安全性通知並設定優先提示"
+    },
+    {
+        "index": 746,
+        "scenario": "將瀏覽器代理伺服器設定改為自動偵測模式"
+    },
+    {
+        "index": 747,
+        "scenario": "將指定目錄「專案資料」所有檔案複製至USB裝置"
+    },
+    {
+        "index": 748,
+        "scenario": "建立新壓縮檔案並將多個工作文件加入壓縮包內"
+    },
+    {
+        "index": 749,
+        "scenario": "關閉防毒軟體實時監控並重啟電腦使設定生效"
+    },
+    {
+        "index": 750,
+        "scenario": "在記事本中新增文字內容並存檔為「備忘錄.txt」"
+    },
+    {
+        "index": 751,
+        "scenario": "將桌面上「運動計畫.xlsx」中數據複製並貼到新工作表"
+    },
+    {
+        "index": 752,
+        "scenario": "開啟系統控制台並關閉不必要的開機啟動程式"
+    },
+    {
+        "index": 753,
+        "scenario": "刪除「下載」資料夾中已超過90天未修改的所有檔案"
+    },
+    {
+        "index": 754,
+        "scenario": "更改郵件應用簽名檔為包含聯絡電話與公司地址"
+    },
+    {
+        "index": 755,
+        "scenario": "啟動內建語音辨識系統並嘗試辨識簡短句子"
+    },
+    {
+        "index": 756,
+        "scenario": "設定系統屏幕鎖定密碼為包含數字與特殊符號的組合"
+    },
+    {
+        "index": 757,
+        "scenario": "將檔案「報表.docx」加密並設定只能特定使用者讀取"
+    },
+    {
+        "index": 758,
+        "scenario": "將指定資料夾內所有圖片檔案重新命名成按日期排序格式"
+    },
+    {
+        "index": 759,
+        "scenario": "關閉系統螢幕保護程式並設定永不啟動"
+    },
+    {
+        "index": 760,
+        "scenario": "將指定PDF檔案分頁拆分成不超過10頁的小檔案"
+    },
+    {
+        "index": 761,
+        "scenario": "開啟郵件收件匣並搜尋標題包含「合約」的所有郵件"
+    },
+    {
+        "index": 762,
+        "scenario": "新增滑鼠右鍵選單功能以快速複製檔案路徑"
+    },
+    {
+        "index": 763,
+        "scenario": "設置Windows備份排程每週日凌晨3點自動備份重要文檔"
+    },
+    {
+        "index": 764,
+        "scenario": "建立新的虛擬桌面並在該桌面上開啟文字編輯器"
+    },
+    {
+        "index": 765,
+        "scenario": "調整系統觸控螢幕的多點觸控靈敏度並保存設定"
+    },
+    {
+        "index": 766,
+        "scenario": "關閉所有應用程式並將系統進入待機狀態"
+    },
+    {
+        "index": 767,
+        "scenario": "複製郵件附件「2024行程表.xlsx」並儲存於桌面備份"
+    },
+    {
+        "index": 768,
+        "scenario": "設定Chrome瀏覽器自動填表功能僅啟用姓名及電話欄位"
+    },
+    {
+        "index": 769,
+        "scenario": "新增系統自動化排程每日上午10點執行資料備份任務"
+    },
+    {
+        "index": 770,
+        "scenario": "修改系統音效主題為「Windows經典」並套用更改"
+    },
+    {
+        "index": 771,
+        "scenario": "開啟「工作計畫.docx」並新增一段會議摘要"
+    },
+    {
+        "index": 772,
+        "scenario": "複製「照片_202404.jpg」到「春季相簿」資料夾"
+    },
+    {
+        "index": 773,
+        "scenario": "刪除「暫存檔案」資料夾中30天前的檔案"
+    },
+    {
+        "index": 774,
+        "scenario": "搜尋「年度報告」關鍵字並列出前三筆結果"
+    },
+    {
+        "index": 775,
+        "scenario": "調整螢幕解析度至1920x1080"
+    },
+    {
+        "index": 776,
+        "scenario": "設定電腦時間為2024年4月1日12:00"
+    },
+    {
+        "index": 777,
+        "scenario": "啟動電子郵件應用程式並開啟收件匣"
+    },
+    {
+        "index": 778,
+        "scenario": "開啟瀏覽器並前往「www.news.com.tw」"
+    },
+    {
+        "index": 779,
+        "scenario": "下載「合約範本.pdf」到「下載」資料夾"
+    },
+    {
+        "index": 780,
+        "scenario": "將「音樂播放列表.m3u」匯入音樂播放器"
+    },
+    {
+        "index": 781,
+        "scenario": "新增網路印表機名稱為「辦公室印表機」"
+    },
+    {
+        "index": 782,
+        "scenario": "關閉所有防毒軟體視窗"
+    },
+    {
+        "index": 783,
+        "scenario": "建立新資料夾「2024專案資料」於桌面"
+    },
+    {
+        "index": 784,
+        "scenario": "檢查系統更新並重啟電腦完成安裝"
+    },
+    {
+        "index": 785,
+        "scenario": "開啟「產品比對.xlsx」並篩選價格1000以下項目"
+    },
+    {
+        "index": 786,
+        "scenario": "將「簡報.pptx」另存為PDF格式到「報告」資料夾"
+    },
+    {
+        "index": 787,
+        "scenario": "搜尋桌面中「重要信件」文字檔並開啟最新修改"
+    },
+    {
+        "index": 788,
+        "scenario": "啟動音樂播放器並播放「春日曲目」播放清單"
+    },
+    {
+        "index": 789,
+        "scenario": "登出目前使用者帳戶並切換至「訪客」帳戶"
+    },
+    {
+        "index": 790,
+        "scenario": "開啟「備忘錄.txt」新增代辦事項清單"
+    },
+    {
+        "index": 791,
+        "scenario": "設定螢幕亮度至70%"
+    },
+    {
+        "index": 792,
+        "scenario": "關閉所有背景執行的Chrome分頁"
+    },
+    {
+        "index": 793,
+        "scenario": "瀏覽器搜尋「台北天氣預報」並截圖"
+    },
+    {
+        "index": 794,
+        "scenario": "啟動視訊會議軟體並開啟會議室ID為123456"
+    },
+    {
+        "index": 795,
+        "scenario": "移動「影片剪輯.mp4」至「影片素材」資料夾"
+    },
+    {
+        "index": 796,
+        "scenario": "安裝名為「PDF閱讀器」的更新檔案"
+    },
+    {
+        "index": 797,
+        "scenario": "清空回收筒中的所有檔案"
+    },
+    {
+        "index": 798,
+        "scenario": "將文字檔案「報告草稿.txt」列印出來"
+    },
+    {
+        "index": 799,
+        "scenario": "建立新的壓縮檔案「備份.zip」並加入「文件」資料夾內容"
+    },
+    {
+        "index": 800,
+        "scenario": "調整系統音量為中等音量"
+    },
+    {
+        "index": 801,
+        "scenario": "搜尋文字「重要會議」於郵件應用並標記星號"
+    },
+    {
+        "index": 802,
+        "scenario": "開啟「學生名單.xls」並匯出為CSV格式"
+    },
+    {
+        "index": 803,
+        "scenario": "登入雲端硬碟並上傳「旅遊計畫.pdf」"
+    },
+    {
+        "index": 804,
+        "scenario": "刪除「下載」資料夾中大小超過100MB的檔案"
+    },
+    {
+        "index": 805,
+        "scenario": "開啟瀏覽器並登入「線上銀行」網站"
+    },
+    {
+        "index": 806,
+        "scenario": "將桌面上的圖片「風景.png」設定為桌布"
+    },
+    {
+        "index": 807,
+        "scenario": "建立新快捷方式名稱為「常用文件夾」於桌面"
+    },
+    {
+        "index": 808,
+        "scenario": "修改檔案「任務清單.docx」標題為「4月工作任務」"
+    },
+    {
+        "index": 809,
+        "scenario": "開啟「工作日誌.txt」並搜尋「問題記錄」關鍵字"
+    },
+    {
+        "index": 810,
+        "scenario": "設定系統自動鎖定時間為10分鐘無操作"
+    },
+    {
+        "index": 811,
+        "scenario": "開啟郵件軟體並撰寫收件人為「manager@example.com」的新郵件"
+    },
+    {
+        "index": 812,
+        "scenario": "啟動計算機並計算215乘以37的結果"
+    },
+    {
+        "index": 813,
+        "scenario": "下載並安裝最新的網頁瀏覽器更新"
+    },
+    {
+        "index": 814,
+        "scenario": "開啟檔案「報價單.xlsx」並插入一張新工作表"
+    },
+    {
+        "index": 815,
+        "scenario": "將「健康飲食.pdf」檔案透過郵件附件寄出"
+    },
+    {
+        "index": 816,
+        "scenario": "設定預設印表機為「彩色雷射印表機」"
+    },
+    {
+        "index": 817,
+        "scenario": "開啟「文章資料夾」並搜尋名稱包含「市場調查」的檔案"
+    },
+    {
+        "index": 818,
+        "scenario": "儲存「設計稿.psd」為新檔名「設計稿_v2.psd」"
+    },
+    {
+        "index": 819,
+        "scenario": "安裝軟體更新版本為4.5.3"
+    },
+    {
+        "index": 820,
+        "scenario": "建立桌面快捷資料夾名稱為「會議材料」"
+    },
+    {
+        "index": 821,
+        "scenario": "打開瀏覽器並前往「2024年春季時裝秀」網站首頁"
+    },
+    {
+        "index": 822,
+        "scenario": "遠端桌面連線至IP地址「192.168.1.10」"
+    },
+    {
+        "index": 823,
+        "scenario": "修改系統字型大小為16號字"
+    },
+    {
+        "index": 824,
+        "scenario": "搜尋郵件中的「付款提醒」並標記為已讀"
+    },
+    {
+        "index": 825,
+        "scenario": "將圖片「生日派對.jpg」壓縮大小至1MB以內"
+    },
+    {
+        "index": 826,
+        "scenario": "啟用飛航模式並關閉無線網路"
+    },
+    {
+        "index": 827,
+        "scenario": "建立新Excel檔案命名為「月度支出報告」"
+    },
+    {
+        "index": 828,
+        "scenario": "將「薪資明細.xlsx」複製到USB裝置"
+    },
+    {
+        "index": 829,
+        "scenario": "刪除瀏覽器所有快取資料並重啟瀏覽器"
+    },
+    {
+        "index": 830,
+        "scenario": "開啟視訊軟體並開啟用戶ID為85643的對話視窗"
+    },
+    {
+        "index": 831,
+        "scenario": "匯入「聯絡人.csv」到電子郵件通訊錄中"
+    },
+    {
+        "index": 832,
+        "scenario": "將「方案比較.docx」中的表格複製並貼上至新檔案"
+    },
+    {
+        "index": 833,
+        "scenario": "設定電腦開機自動登入使用者名稱為「user01」"
+    },
+    {
+        "index": 834,
+        "scenario": "搜尋裝置管理員中的「音效裝置」並更新驅動程式"
+    },
+    {
+        "index": 835,
+        "scenario": "將「報告2024.ppt」調整為32張投影片"
+    },
+    {
+        "index": 836,
+        "scenario": "啟動記事本並快速輸入今天待辦事項清單"
+    },
+    {
+        "index": 837,
+        "scenario": "關閉所有瀏覽器分頁並釋放記憶體"
+    },
+    {
+        "index": 838,
+        "scenario": "將「照片集.zip」解壓縮至「節日聚會」資料夾"
+    },
+    {
+        "index": 839,
+        "scenario": "鎖定電腦並切換使用者為「guest」"
+    },
+    {
+        "index": 840,
+        "scenario": "設定郵件提醒為每兩小時檢查新信件"
+    },
+    {
+        "index": 841,
+        "scenario": "安裝字型檔案名稱為「標楷體.ttf」"
+    },
+    {
+        "index": 842,
+        "scenario": "將「專案計畫書.doc」新增標頭文字「2024年4月版本」"
+    },
+    {
+        "index": 843,
+        "scenario": "開啟影音播放器並播放「教育影片.mp4」"
+    },
+    {
+        "index": 844,
+        "scenario": "下載「季度統計.csv」並以Excel格式開啟"
+    },
+    {
+        "index": 845,
+        "scenario": "複製「密碼備份.txt」到加密資料夾「安全資料」"
+    },
+    {
+        "index": 846,
+        "scenario": "設定滑鼠雙擊速度為中等反應"
+    },
+    {
+        "index": 847,
+        "scenario": "啟動防火牆並設定阻擋所有未授權連線"
+    },
+    {
+        "index": 848,
+        "scenario": "開啟檔案管理器並搜尋「報價」相關文件"
+    },
+    {
+        "index": 849,
+        "scenario": "將瀏覽器首頁設定為「https://www.example.com」"
+    },
+    {
+        "index": 850,
+        "scenario": "將「課程錄影.mp4」改名為「2024春季課程.mp4」"
+    },
+    {
+        "index": 851,
+        "scenario": "建立快速鍵Ctrl+Alt+C執行螢幕截圖"
+    },
+    {
+        "index": 852,
+        "scenario": "登出目前雲端硬碟帳戶並登入另一帳號"
+    },
+    {
+        "index": 853,
+        "scenario": "新增電腦使用者名稱「專案助理」"
+    },
+    {
+        "index": 854,
+        "scenario": "開啟「系統設定」並查詢記憶體使用狀況"
+    },
+    {
+        "index": 855,
+        "scenario": "將「重要信件.eml」複製到備份資料夾"
+    },
+    {
+        "index": 856,
+        "scenario": "開啟「日曆應用」並新增4月10日會議事件"
+    },
+    {
+        "index": 857,
+        "scenario": "下載且安裝最新版本影片編輯軟體"
+    },
+    {
+        "index": 858,
+        "scenario": "切換音訊輸出裝置為外接喇叭"
+    },
+    {
+        "index": 859,
+        "scenario": "新增「客戶列表.xlsx」到「銷售資料」資料夾"
+    },
+    {
+        "index": 860,
+        "scenario": "搜尋並複製「工作報告」中指定段落文字"
+    },
+    {
+        "index": 861,
+        "scenario": "將螢幕截圖檔案儲存至「桌面」資料夾"
+    },
+    {
+        "index": 862,
+        "scenario": "開啟「財務報表.pdf」並放大至150%"
+    },
+    {
+        "index": 863,
+        "scenario": "建立新的文字檔案命名為「旅行計畫.txt」"
+    },
+    {
+        "index": 864,
+        "scenario": "刪除播客應用程式中的收聽歷史紀錄"
+    },
+    {
+        "index": 865,
+        "scenario": "啟動VPN連線並連接至美國節點"
+    },
+    {
+        "index": 866,
+        "scenario": "開啟「專案備份」資料夾並壓縮其中所有檔案"
+    },
+    {
+        "index": 867,
+        "scenario": "設定電腦滑鼠指標顏色為紅色"
+    },
+    {
+        "index": 868,
+        "scenario": "開啟「文件夾A」並將內部檔案按日期排序"
+    },
+    {
+        "index": 869,
+        "scenario": "重設網路設定並重新連接Wi-Fi"
+    },
+    {
+        "index": 870,
+        "scenario": "將「計畫書.pdf」透過email發送給boss@example.com"
+    },
+    {
+        "index": 871,
+        "scenario": "啟動文字轉語音軟體讀出「說明文件.doc」內容"
+    },
+    {
+        "index": 872,
+        "scenario": "重新命名資料夾「報告3月」為「報告04月」"
+    },
+    {
+        "index": 873,
+        "scenario": "停用不常使用的藍牙裝置連線"
+    },
+    {
+        "index": 874,
+        "scenario": "匯出郵件軟體中2024年3月的郵件存檔"
+    },
+    {
+        "index": 875,
+        "scenario": "將桌面捷徑「程式A」移動到「工具軟體」資料夾"
+    },
+    {
+        "index": 876,
+        "scenario": "設定系統語言為中文（繁體）"
+    },
+    {
+        "index": 877,
+        "scenario": "開啟網頁並搜尋「最新手機評測」文章"
+    },
+    {
+        "index": 878,
+        "scenario": "整理桌面檔案按類型分類並移動"
+    },
+    {
+        "index": 879,
+        "scenario": "將「試算表.xlsx」中A欄數據複製到新工作表"
+    },
+    {
+        "index": 880,
+        "scenario": "開啟電子書閱讀軟體並載入「小說.epub」"
+    },
+    {
+        "index": 881,
+        "scenario": "輸入Wi-Fi密碼連接新無線網路「Home_Net」"
+    },
+    {
+        "index": 882,
+        "scenario": "開啟命令提示字元並執行IP位址查詢指令"
+    },
+    {
+        "index": 883,
+        "scenario": "將「會議錄音.m4a」剪輯成3分鐘片段"
+    },
+    {
+        "index": 884,
+        "scenario": "新增系統使用者帳號，限制權限為標準用戶"
+    },
+    {
+        "index": 885,
+        "scenario": "檢查防毒軟體最後掃描日期並手動掃描一次"
+    },
+    {
+        "index": 886,
+        "scenario": "將「影片合集」資料夾內檔案按名稱排序"
+    },
+    {
+        "index": 887,
+        "scenario": "刪除回收筒中所有檔案並清理硬碟空間"
+    },
+    {
+        "index": 888,
+        "scenario": "將「備份2023.zip」移動到外接硬碟"
+    },
+    {
+        "index": 889,
+        "scenario": "開啟「網路設定」並設定靜態IP地址192.168.0.100"
+    },
+    {
+        "index": 890,
+        "scenario": "監控CPU使用率並記錄5分鐘數值數據"
+    },
+    {
+        "index": 891,
+        "scenario": "啟動文字編輯器並設定預設字型為微軟正黑體"
+    },
+    {
+        "index": 892,
+        "scenario": "搜尋「會議記錄.docx」並上傳到雲端硬碟"
+    },
+    {
+        "index": 893,
+        "scenario": "關閉系統通知聲音並僅保留警告響鈴"
+    },
+    {
+        "index": 894,
+        "scenario": "將郵件附件「發票.pdf」另存於「Finance」資料夾"
+    },
+    {
+        "index": 895,
+        "scenario": "打開瀏覽器並登入「公司內部網」首頁"
+    },
+    {
+        "index": 896,
+        "scenario": "下載「員工手冊」PDF檔案並標註目錄章節"
+    },
+    {
+        "index": 897,
+        "scenario": "啟用無痕模式瀏覽並搜尋「新款筆記型電腦」"
+    },
+    {
+        "index": 898,
+        "scenario": "用剪貼簿複製「公告.txt」內容並貼到新郵件"
+    },
+    {
+        "index": 899,
+        "scenario": "啟動「錄音軟體」並開始錄製會議内容"
+    },
+    {
+        "index": 900,
+        "scenario": "建立文字檔「電話會議紀錄.txt」並存於桌面"
+    },
+    {
+        "index": 901,
+        "scenario": "刪除郵件系統中超過一年未讀信件"
+    },
+    {
+        "index": 902,
+        "scenario": "改變「專案報告.ppt」背景顏色為白色"
+    },
+    {
+        "index": 903,
+        "scenario": "關閉所有不必要背景程式以釋放記憶體"
+    },
+    {
+        "index": 904,
+        "scenario": "匯入CSV檔「銷售資料.csv」至資料庫系統中"
+    },
+    {
+        "index": 905,
+        "scenario": "調整螢幕色彩校正設定至預設模式"
+    },
+    {
+        "index": 906,
+        "scenario": "啟動影像瀏覽器並依日期瀏覽照片集"
+    },
+    {
+        "index": 907,
+        "scenario": "查詢電腦裝置管理員內的網卡型號"
+    },
+    {
+        "index": 908,
+        "scenario": "重新命名桌面壓縮檔「舊資料.zip」為「歷史資料.zip」"
+    },
+    {
+        "index": 909,
+        "scenario": "開啟記事本並輸入「明日待辦清單」內容"
+    },
+    {
+        "index": 910,
+        "scenario": "透過郵件將「報價方案.pdf」寄送給sales@company.com"
+    },
+    {
+        "index": 911,
+        "scenario": "開啟文件「員工訓練.ppt」並開始簡報模式"
+    },
+    {
+        "index": 912,
+        "scenario": "關閉電腦藍牙功能以節省電力"
+    },
+    {
+        "index": 913,
+        "scenario": "啟動系統還原並選擇最近一次還原點"
+    },
+    {
+        "index": 914,
+        "scenario": "在電腦上新增Wi-Fi網路「Cafe_Free」並連接"
+    },
+    {
+        "index": 915,
+        "scenario": "搜尋桌面中包含「發票」字樣的PDF檔案"
+    },
+    {
+        "index": 916,
+        "scenario": "將「計劃A.txt」複製並重新命名為「計劃B.txt」"
+    },
+    {
+        "index": 917,
+        "scenario": "下載官方驅動程式版本5.2.1並安裝完成"
+    },
+    {
+        "index": 918,
+        "scenario": "設定電腦自動更新時間為凌晨2點"
+    },
+    {
+        "index": 919,
+        "scenario": "搜尋系統日誌內關於錯誤碼404的記錄"
+    },
+    {
+        "index": 920,
+        "scenario": "將「會議錄音.wav」轉檔成MP3格式"
+    },
+    {
+        "index": 921,
+        "scenario": "開啟「客戶資料.xlsx」並新增一筆客戶資料"
+    },
+    {
+        "index": 922,
+        "scenario": "建立新郵件主旨為「訂單確認」並填寫收件人"
+    },
+    {
+        "index": 923,
+        "scenario": "在Word文件中插入公司標誌圖片「logo.png」"
+    },
+    {
+        "index": 924,
+        "scenario": "登入社交媒體帳號並檢查新通知"
+    },
+    {
+        "index": 925,
+        "scenario": "啟動截圖工具並保存目前螢幕畫面"
+    },
+    {
+        "index": 926,
+        "scenario": "開啟「工作計劃」Excel檔並設定儲存格格式為日期"
+    },
+    {
+        "index": 927,
+        "scenario": "將「旅行影片.mov」複製到USB隨身碟"
+    },
+    {
+        "index": 928,
+        "scenario": "安裝最新防毒防護軟體並啟用即時防護"
+    },
+    {
+        "index": 929,
+        "scenario": "關閉電腦防火牆以允許遠端桌面連線"
+    },
+    {
+        "index": 930,
+        "scenario": "尋找「合約2024.docx」並將其移動到「合約」資料夾"
+    },
+    {
+        "index": 931,
+        "scenario": "編輯「電子報內容.html」並新增本期主題標題"
+    },
+    {
+        "index": 932,
+        "scenario": "刪除桌面未用的快捷方式「遊戲啟動器」"
+    },
+    {
+        "index": 933,
+        "scenario": "下載「系統診斷報告.txt」並透過郵件寄出"
+    },
+    {
+        "index": 934,
+        "scenario": "執行磁碟重組工具以優化硬碟效能"
+    },
+    {
+        "index": 935,
+        "scenario": "將「存貨清單.xlsx」排序按存貨數量由大至小"
+    },
+    {
+        "index": 936,
+        "scenario": "匯入Outlook聯絡人備份文件「contacts.bak」"
+    },
+    {
+        "index": 937,
+        "scenario": "安裝PDF編輯軟體並註冊授權碼"
+    },
+    {
+        "index": 938,
+        "scenario": "關閉系統語音辨識功能"
+    },
+    {
+        "index": 939,
+        "scenario": "新增桌面快捷方式為「線上會議」連結"
+    },
+    {
+        "index": 940,
+        "scenario": "啟用Windows夜間模式並設定為晚上7點開始"
+    },
+    {
+        "index": 941,
+        "scenario": "搜尋「專案報告.doc」內特定關鍵字「完成期限」"
+    },
+    {
+        "index": 942,
+        "scenario": "啟動虛擬機器並載入作業系統映像檔"
+    },
+    {
+        "index": 943,
+        "scenario": "建立新資料夾命名為「家庭照片2023」於圖片目錄"
+    },
+    {
+        "index": 944,
+        "scenario": "調整網頁瀏覽器字體大小為120%"
+    },
+    {
+        "index": 945,
+        "scenario": "備份「會計帳簿.accdb」資料庫至外接硬碟"
+    },
+    {
+        "index": 946,
+        "scenario": "清除瀏覽器歷史記錄和cookies"
+    },
+    {
+        "index": 947,
+        "scenario": "上傳「簡歷.pdf」至求職網站個人資料頁面"
+    },
+    {
+        "index": 948,
+        "scenario": "關閉所有影片播放器並釋放相關記憶體"
+    },
+    {
+        "index": 949,
+        "scenario": "設定資料夾「專案文件」為唯讀模式"
+    },
+    {
+        "index": 950,
+        "scenario": "安裝字型檔並重啟文字處理軟體"
+    },
+    {
+        "index": 951,
+        "scenario": "搜尋Windows檔案總管中修改日期為本日的檔案"
+    },
+    {
+        "index": 952,
+        "scenario": "刪除郵件系統中垃圾郵件資料夾內容"
+    },
+    {
+        "index": 953,
+        "scenario": "將影片檔「活動紀錄.mp4」標記為收藏"
+    },
+    {
+        "index": 954,
+        "scenario": "啟動螢幕錄影並錄製10分鐘會議內容"
+    },
+    {
+        "index": 955,
+        "scenario": "修改電腦電源設定為省電模式"
+    },
+    {
+        "index": 956,
+        "scenario": "將「記帳表格.xlsx」另存新檔為「2024記帳表格.xlsx」"
+    },
+    {
+        "index": 957,
+        "scenario": "設定電子郵件自動回覆訊息內容為「我目前不在辦公室」"
+    },
+    {
+        "index": 958,
+        "scenario": "儲存並關閉「企劃書.docx」檔案"
+    },
+    {
+        "index": 959,
+        "scenario": "下載並安裝字型「李細明體」到系統字型資料夾"
+    },
+    {
+        "index": 960,
+        "scenario": "啟動系統清理工具掃描並刪除垃圾檔案"
+    },
+    {
+        "index": 961,
+        "scenario": "設定螢幕保護程式啟動延遲為5分鐘"
+    },
+    {
+        "index": 962,
+        "scenario": "複製電子郵件中附件「報價單.xlsx」並儲存到「商務資料」"
+    },
+    {
+        "index": 963,
+        "scenario": "打開PPT檔「年度簡報」並開始放映"
+    },
+    {
+        "index": 964,
+        "scenario": "變更Microsoft Outlook收件箱排序依日期由新到舊"
+    },
+    {
+        "index": 965,
+        "scenario": "查詢系統聲卡型號並更新驅動程式"
+    },
+    {
+        "index": 966,
+        "scenario": "將「目標設定.pdf」用郵件寄送給team_leader@example.com"
+    },
+    {
+        "index": 967,
+        "scenario": "設定螢幕成為延伸模式並擺放在主螢幕右側"
+    },
+    {
+        "index": 968,
+        "scenario": "開啟Excel設定中啟用自動儲存功能"
+    },
+    {
+        "index": 969,
+        "scenario": "將「會議記錄.doc」內容複製到新建立的備忘錄中"
+    },
+    {
+        "index": 970,
+        "scenario": "下載並安裝最新系統安全更新補丁"
+    },
+    {
+        "index": 971,
+        "scenario": "將內部網路共享資料夾掛載為網路驅動器Z"
+    },
+    {
+        "index": 972,
+        "scenario": "解除安裝不常用的應用程式「天氣預報」"
+    },
+    {
+        "index": 973,
+        "scenario": "開啟「專案資料夾」將所有檔案按名稱重新命名"
+    },
+    {
+        "index": 974,
+        "scenario": "設定桌面背景為純色藍色"
+    },
+    {
+        "index": 975,
+        "scenario": "下載最新字型並安裝至系統字型資料夾"
+    },
+    {
+        "index": 976,
+        "scenario": "將剪貼簿中的文字貼到「備忘錄.txt」檔案內"
+    },
+    {
+        "index": 977,
+        "scenario": "開啟「影片播放器」並調整音量至50%"
+    },
+    {
+        "index": 978,
+        "scenario": "刪除網頁瀏覽器中所有已儲存的密碼資料"
+    },
+    {
+        "index": 979,
+        "scenario": "啟用電腦螢幕夜間光線過濾器"
+    },
+    {
+        "index": 980,
+        "scenario": "搜尋郵件內附件為PDF且大小超過5MB的檔案"
+    },
+    {
+        "index": 981,
+        "scenario": "清空系統剪貼簿內容"
+    },
+    {
+        "index": 982,
+        "scenario": "建立「雜誌訂閱清單.xlsx」並輸入標題欄位"
+    },
+    {
+        "index": 983,
+        "scenario": "開啟「螢幕截圖工具」並設定檔案儲存路徑"
+    },
+    {
+        "index": 984,
+        "scenario": "關閉「系統聲音」並設定靜音模式"
+    },
+    {
+        "index": 985,
+        "scenario": "匯入Outlook日曆檔並新增新事件「部門聚餐」"
+    },
+    {
+        "index": 986,
+        "scenario": "解壓縮「備份資料202304.zip」至指定資料夾"
+    },
+    {
+        "index": 987,
+        "scenario": "啟動印表機並列印試驗頁"
+    },
+    {
+        "index": 988,
+        "scenario": "將密碼管理軟體中一筆條目備份到雲端"
+    },
+    {
+        "index": 989,
+        "scenario": "刪除下載資料夾內30天前未使用檔案"
+    },
+    {
+        "index": 990,
+        "scenario": "關閉所有未響應的應用程式視窗"
+    },
+    {
+        "index": 991,
+        "scenario": "搜尋桌面資料夾內名稱包含「範本」的Excel檔"
+    },
+    {
+        "index": 992,
+        "scenario": "建立文字檔案「會議討論重點.txt」並輸入初稿"
+    },
+    {
+        "index": 993,
+        "scenario": "設定電腦睡眠時間為30分鐘無操作"
+    },
+    {
+        "index": 994,
+        "scenario": "啟動螢幕錄影並存至指定資料夾"
+    },
+    {
+        "index": 995,
+        "scenario": "搜尋系統事件檢視器中錯誤類型事件"
+    },
+    {
+        "index": 996,
+        "scenario": "複製「年度考核報告.pdf」並黏貼到備份資料夾"
+    },
+    {
+        "index": 997,
+        "scenario": "開啟Word文件新增頁首並輸入公司名稱"
+    },
+    {
+        "index": 998,
+        "scenario": "下載並安裝指定版本3.0的驅動程式"
+    },
+    {
+        "index": 999,
+        "scenario": "將影片「教學影片.mp4」設為自動播放"
+    },
+    {
+        "index": 1000,
+        "scenario": "設定電子郵件簽名內容並儲存更改"
+    },
+    {
+        "index": 1001,
+        "scenario": "啟動Windows防火牆並新增例外規則"
+    },
+    {
+        "index": 1002,
+        "scenario": "開啟郵件軟體並標記所有未讀郵件為已讀"
+    },
+    {
+        "index": 1003,
+        "scenario": "刪除系統中的暫存Internet檔案"
+    },
+    {
+        "index": 1004,
+        "scenario": "建立「軟體更新記錄.xlsx」並新增4月更新項目"
+    },
+    {
+        "index": 1005,
+        "scenario": "開啟「下載」資料夾並刪除所有重複檔案"
+    },
+    {
+        "index": 1006,
+        "scenario": "登入線上會議並開啟分享螢幕功能"
+    },
+    {
+        "index": 1007,
+        "scenario": "關閉系統中所有桌面小工具"
+    },
+    {
+        "index": 1008,
+        "scenario": "搜尋所有PDF檔案並將結果匯出清單"
+    },
+    {
+        "index": 1009,
+        "scenario": "重設滑鼠指標為系統預設樣式"
+    },
+    {
+        "index": 1010,
+        "scenario": "啟動電腦並進入安全模式"
+    },
+    {
+        "index": 1011,
+        "scenario": "新增桌面快捷方式連結至指定資料夾「媒體素材」"
+    },
+    {
+        "index": 1012,
+        "scenario": "設定郵件客戶端每10分鐘自動接收新郵件"
+    },
+    {
+        "index": 1013,
+        "scenario": "清除郵件垃圾郵件資料夾中30日前郵件"
+    },
+    {
+        "index": 1014,
+        "scenario": "開啟「投影片.ppt」並新增結束投影片頁面"
+    },
+    {
+        "index": 1015,
+        "scenario": "將PDF文件「手冊.pdf」按頁碼2到5匯出為新檔"
+    },
+    {
+        "index": 1016,
+        "scenario": "安裝最新版本視訊會議軟體並登入帳戶"
+    },
+    {
+        "index": 1017,
+        "scenario": "搜尋系統文件中包含字串「錯誤代碼」的檔案"
+    },
+    {
+        "index": 1018,
+        "scenario": "開啟「日曆」應用程式並新增明天重要會議提醒"
+    },
+    {
+        "index": 1019,
+        "scenario": "將桌面備份檔「backup_20240401.zip」複製到雲端硬碟"
+    },
+    {
+        "index": 1020,
+        "scenario": "將系統音效調整為靜音模式並關閉音量提示"
+    },
+    {
+        "index": 1021,
+        "scenario": "啟動錄音機軟體並錄製10分鐘會議內容"
+    },
+    {
+        "index": 1022,
+        "scenario": "查詢網路鄰居並新增「共用資料夾」權限"
+    },
+    {
+        "index": 1023,
+        "scenario": "下載「會議紀錄.docx」並用文字處理軟體開啟"
+    },
+    {
+        "index": 1024,
+        "scenario": "搜尋資料夾中所有jpg檔並刪除檔案尺寸小於100KB者"
+    },
+    {
+        "index": 1025,
+        "scenario": "刪除網頁瀏覽器中所有暫存檔案和cookies"
+    },
+    {
+        "index": 1026,
+        "scenario": "關閉螢幕保護程式並設定永不啟動"
+    },
+    {
+        "index": 1027,
+        "scenario": "將「工作說明書.pdf」複製至「行政資料」資料夾"
+    },
+    {
+        "index": 1028,
+        "scenario": "調整投影機螢幕顯示比例為16:9"
+    },
+    {
+        "index": 1029,
+        "scenario": "搜尋桌面文件中關鍵字「報價」並列印前三筆"
+    },
+    {
+        "index": 1030,
+        "scenario": "啟用系統備份功能並設定自動備份時間為每晚12點"
+    },
+    {
+        "index": 1031,
+        "scenario": "開啟郵件軟體並撰寫新郵件主旨為「專案需求」"
+    },
+    {
+        "index": 1032,
+        "scenario": "設定電腦桌面圖示間距為中等密度"
+    },
+    {
+        "index": 1033,
+        "scenario": "關閉所有背景自動更新功能"
+    },
+    {
+        "index": 1034,
+        "scenario": "將「壓縮包.rar」解壓至「工作報告」資料夾"
+    },
+    {
+        "index": 1035,
+        "scenario": "啟動圖片編輯軟體並調整「風景照.jpg」亮度"
+    },
+    {
+        "index": 1036,
+        "scenario": "登入線上音樂平台並播放指定播放清單"
+    },
+    {
+        "index": 1037,
+        "scenario": "建立資料夾「家庭文件」並移動相關檔案進入"
+    },
+    {
+        "index": 1038,
+        "scenario": "搜尋系統事件紀錄中特定服務啟動失敗記錄"
+    },
+    {
+        "index": 1039,
+        "scenario": "刪除Windows系統暫存檔以釋放空間"
+    },
+    {
+        "index": 1040,
+        "scenario": "下載「會議議程.pdf」並開啟預覽"
+    },
+    {
+        "index": 1041,
+        "scenario": "設定螢幕顯示色彩為自然模式"
+    },
+    {
+        "index": 1042,
+        "scenario": "增設Windows使用者帳戶並設定密碼"
+    },
+    {
+        "index": 1043,
+        "scenario": "關閉所有啟動時自動執行的應用程式"
+    },
+    {
+        "index": 1044,
+        "scenario": "重新安裝網路驅動程式並確認連線正常"
+    },
+    {
+        "index": 1045,
+        "scenario": "將郵件中「客戶合約.pdf」另存至「合約」資料夾"
+    },
+    {
+        "index": 1046,
+        "scenario": "搜尋指定資料夾「報告」中包含「2023」檔名檔案"
+    },
+    {
+        "index": 1047,
+        "scenario": "設定電腦螢幕休眠時間為15分鐘"
+    },
+    {
+        "index": 1048,
+        "scenario": "開啟資料夾「專案A」並複製所有檔案到「備份」"
+    },
+    {
+        "index": 1049,
+        "scenario": "啟動命令列工具並執行網路連線測試命令"
+    },
+    {
+        "index": 1050,
+        "scenario": "開啟「影片剪輯軟體」並導入「活動視頻.mp4」"
+    },
+    {
+        "index": 1051,
+        "scenario": "建立桌面快速鍵指向「公司內部網頁」"
+    },
+    {
+        "index": 1052,
+        "scenario": "將桌面背景更換為預設圖片之一"
+    },
+    {
+        "index": 1053,
+        "scenario": "設定郵件軟體主題為深色模式"
+    },
+    {
+        "index": 1054,
+        "scenario": "啟用Windows防火牆並阻擋所有公共網路連線"
+    },
+    {
+        "index": 1055,
+        "scenario": "將「會計報表.xlsx」匯出成PDF檔案"
+    },
+    {
+        "index": 1056,
+        "scenario": "搜尋郵件中標題包含「加班申請」的郵件並回覆"
+    },
+    {
+        "index": 1057,
+        "scenario": "複製「薪資表格.xlsx」並重命名為「薪資表格_備份.xlsx」"
+    },
+    {
+        "index": 1058,
+        "scenario": "將「影片A.mp4」移動至外接硬碟「Backup」"
+    },
+    {
+        "index": 1059,
+        "scenario": "安裝系統更新並於完成後重新啟動電腦"
+    },
+    {
+        "index": 1060,
+        "scenario": "新增郵件聯絡人資料姓名「張三」，郵箱為「zhangsan@example.com」"
+    },
+    {
+        "index": 1061,
+        "scenario": "開啟「通訊錄」並搜尋電話號碼以「09」開頭的聯絡人"
+    },
+    {
+        "index": 1062,
+        "scenario": "設定滑鼠指標速度為最快反應"
+    },
+    {
+        "index": 1063,
+        "scenario": "下載並安裝最新版本文字處理軟體"
+    },
+    {
+        "index": 1064,
+        "scenario": "儲存並關閉所有開啟的Office文件"
+    },
+    {
+        "index": 1065,
+        "scenario": "建立新文字檔案「日常備忘.txt」於桌面"
+    },
+    {
+        "index": 1066,
+        "scenario": "搜尋桌面中「測試資料」資料夾並開啟"
+    },
+    {
+        "index": 1067,
+        "scenario": "關閉所有活躍的網路連線"
+    },
+    {
+        "index": 1068,
+        "scenario": "刪除瀏覽器中所有已儲存的用戶名密碼"
+    },
+    {
+        "index": 1069,
+        "scenario": "更改系統音效為預設Windows提示音"
+    },
+    {
+        "index": 1070,
+        "scenario": "建立壓縮檔「2024財務資料.zip」包含「報表」資料夾"
+    },
+    {
+        "index": 1071,
+        "scenario": "搜尋郵件系統中標記未讀的郵件並批次標為已讀"
+    },
+    {
+        "index": 1072,
+        "scenario": "新增系統環境變數名稱為「JAVA_HOME」路徑「C:\\Java」"
+    },
+    {
+        "index": 1073,
+        "scenario": "將桌面資料夾「工作文件」設定為隱藏"
+    },
+    {
+        "index": 1074,
+        "scenario": "開啟「考勤紀錄.xlsx」並輸入本周打卡時間"
+    },
+    {
+        "index": 1075,
+        "scenario": "停止正在執行的瀏覽器中的所有視訊播放"
+    },
+    {
+        "index": 1076,
+        "scenario": "更換螢幕解析度為1366x768"
+    },
+    {
+        "index": 1077,
+        "scenario": "新增行事曆事件提醒標題為「醫院預約」時間為5月5日下午3點"
+    },
+    {
+        "index": 1078,
+        "scenario": "登入郵件系統並設定自動回覆訊息為「休假中，五日後回覆」"
+    },
+    {
+        "index": 1079,
+        "scenario": "修改瀏覽器首頁為「https://www.work.com」"
+    },
+    {
+        "index": 1080,
+        "scenario": "將CSV格式檔案「客戶資料.csv」匯入資料庫"
+    },
+    {
+        "index": 1081,
+        "scenario": "將「費用報告.docx」列印並保留電子檔備份"
+    },
+    {
+        "index": 1082,
+        "scenario": "設定電腦時區為台北標準時間"
+    },
+    {
+        "index": 1083,
+        "scenario": "刪除所有暫存瀏覽器資料並重新啟動瀏覽器"
+    },
+    {
+        "index": 1084,
+        "scenario": "複製「公司介紹.pdf」至USB根目錄"
+    },
+    {
+        "index": 1085,
+        "scenario": "將桌面「重要檔案」資料夾壓縮成ZIP檔案"
+    },
+    {
+        "index": 1086,
+        "scenario": "啟動螢幕閱讀軟體並開啟「教學文件.pdf」"
+    },
+    {
+        "index": 1087,
+        "scenario": "新增郵件聯絡人信箱為「service@company.com」"
+    },
+    {
+        "index": 1088,
+        "scenario": "調整滑鼠滾輪速度至最快設定"
+    },
+    {
+        "index": 1089,
+        "scenario": "解除安裝軟體「舊版圖片瀏覽器」"
+    },
+    {
+        "index": 1090,
+        "scenario": "開啟CMD並執行系統資訊查詢指令"
+    },
+    {
+        "index": 1091,
+        "scenario": "改變電腦螢幕顯示比例為100%"
+    },
+    {
+        "index": 1092,
+        "scenario": "刪除「下載」資料夾中所有超過1GB檔案"
+    },
+    {
+        "index": 1093,
+        "scenario": "將桌面檔案「簡報.ppt」右鍵新增注釋文字"
+    },
+    {
+        "index": 1094,
+        "scenario": "安裝網路驅動並重啟系統確認網路連線"
+    },
+    {
+        "index": 1095,
+        "scenario": "搜尋系統中所有MP4格式影片並建立檔案清單"
+    },
+    {
+        "index": 1096,
+        "scenario": "將Excel檔「投資計劃.xlsx」另存至「財務報告」資料夾"
+    },
+    {
+        "index": 1097,
+        "scenario": "關閉系統自動更新功能並儲存設定"
+    },
+    {
+        "index": 1098,
+        "scenario": "設定郵件系統自動將「發票」類郵件標記為重要"
+    },
+    {
+        "index": 1099,
+        "scenario": "調整音樂播放器音量為75%"
+    },
+    {
+        "index": 1100,
+        "scenario": "建立資料夾名稱為「會議紀錄2024」於文件目錄"
+    },
+    {
+        "index": 1101,
+        "scenario": "將已下載之壓縮檔案解壓縮到「新專案」資料夾"
+    },
+    {
+        "index": 1102,
+        "scenario": "啟動螢幕截圖並將檔案儲存在「圖片」資料夾"
+    },
+    {
+        "index": 1103,
+        "scenario": "設定系統密碼鎖定時間為5分鐘"
+    },
+    {
+        "index": 1104,
+        "scenario": "搜尋檔案名稱含「專案」並複製到雲端硬碟"
+    },
+    {
+        "index": 1105,
+        "scenario": "開啟郵件軟體並回覆收件人為「client@example.com」的郵件"
+    },
+    {
+        "index": 1106,
+        "scenario": "將「財務報告.docx」內部的表格另存成CSV檔案"
+    },
+    {
+        "index": 1107,
+        "scenario": "關閉所有正在執行的PDF閱讀器程式"
+    },
+    {
+        "index": 1108,
+        "scenario": "設置打印機預設紙張大小為A4"
+    },
+    {
+        "index": 1109,
+        "scenario": "將影片「演示影片.mp4」移動到「演示資料夾」"
+    },
+    {
+        "index": 1110,
+        "scenario": "刪除瀏覽器中過期的網站登入資訊"
+    },
+    {
+        "index": 1111,
+        "scenario": "開啟文件「日誌.txt」並搜尋關鍵字「錯誤」"
+    },
+    {
+        "index": 1112,
+        "scenario": "啟動筆記本電腦的飛航模式"
+    },
+    {
+        "index": 1113,
+        "scenario": "建立桌面捷徑指向「備份資料夾」"
+    },
+    {
+        "index": 1114,
+        "scenario": "打開郵件客戶端並創建帶附件「合約.pdf」的新郵件"
+    },
+    {
+        "index": 1115,
+        "scenario": "將「行程表.xls」複製到USB隨身碟"
+    },
+    {
+        "index": 1116,
+        "scenario": "關閉螢幕鎖定及密碼輸入功能"
+    },
+    {
+        "index": 1117,
+        "scenario": "安裝最新版本的防毒軟體並完成掃描"
+    },
+    {
+        "index": 1118,
+        "scenario": "開啟任務管理器並排序CPU使用率前十程序"
+    },
+    {
+        "index": 1119,
+        "scenario": "建立名為「下載備份」的新資料夾於D槽"
+    },
+    {
+        "index": 1120,
+        "scenario": "更改桌面圖示大小為中等"
+    },
+    {
+        "index": 1121,
+        "scenario": "重新命名「舊照片2023」資料夾為「回憶集」"
+    },
+    {
+        "index": 1122,
+        "scenario": "檢查系統硬碟空間並產生使用報告"
+    },
+    {
+        "index": 1123,
+        "scenario": "關閉所有開啟的檔案並關機"
+    }
+]

@@ -1,0 +1,23 @@
+# Breeze2_FC_finetune requirements
+
+# 基本環境
+torch>=2.0.0
+transformers>=4.40.0
+datasets>=2.19.0
+accelerate>=0.30.0
+
+# LoRA (Parameter-Efficient Fine-Tuning)
+peft>=0.11.0
+
+# 資料處理
+numpy
+pandas
+
+# 訓練過程進度條
+tqdm
+
+# 視覺化 (若需要繪圖分析)
+matplotlib
+
+# 其他可能使用到的工具
+scipy
