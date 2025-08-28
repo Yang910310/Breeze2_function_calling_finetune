@@ -72,6 +72,9 @@ Breeze2_FC_finetune/
 ```bash
 conda create -n breeze2_fc python=3.10
 conda activate breeze2_fc
+
+git clone https://github.com/Yang910310/Breeze2_function_calling_finetune.git
+
 pip install -r requirements.txt
 ```
 
