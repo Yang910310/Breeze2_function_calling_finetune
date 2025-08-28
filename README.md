@@ -70,6 +70,8 @@ Breeze2_FC_finetune/
 建議使用虛擬環境 (venv 或 conda)，並安裝相依套件：
 
 ```bash
+conda create -n breeze2_fc python=3.10
+conda activate breeze2_fc
 pip install -r requirements.txt
 ```
 
@@ -114,10 +116,9 @@ cd GTA
 ```json
 {
   "messages": [
-    {"role": "system", "content": "<system prompt>"},
-    {"role": "user", "content": "<task>"},
-    {"role": "assistant", "content": "<observed>、<thought>、<func_call>"},
-    {"role": "ipython", "content": "<函數調用結果>"}
+    {"role": "system", "content": "You are ..."},
+    {"role": "user", "content": "請介紹 LoRA 微調的用途"},
+    {"role": "assistant", "content": "LoRA 可以..."}
   ]
 }
 ```
@@ -125,4 +126,5 @@ cd GTA
 ---
 
 ## 📌 注意事項
+- 本專案尚未提供 **推論 (inference) script**，僅包含 **資料生成 → 微調 → 評估** 流程。
 - GTA 子模組提供的 README 與 LICENSE 檔可參考官方文件。
