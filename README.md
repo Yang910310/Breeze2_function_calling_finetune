@@ -83,7 +83,9 @@ pip install -r requirements.txt
 ## 🚀 使用方式
 
 ### 1. 建立資料集
-依序執行以下腳本產生清理後的 JSONL 資料：
+首先將OpenAI API key 增加至 .env 檔案當中
+
+接著依序執行以下腳本產生清理後的 JSONL 資料(請記得修改檔案中的路徑)：
 ```bash
 python original_scenarios.py
 python atomic_task_construct.py
@@ -96,7 +98,6 @@ python data_cleaning.py
 ```bash
 python fine_tune.py
 ```
-- 微調後的 LoRA 權重將會存放於 `lora_models/`
 
 ### 3. 合併 LoRA 權重（可選）
 若需要將 LoRA 權重與原始模型合併：
@@ -106,7 +107,6 @@ python merge_lora.py
 
 ### 4. 使用 GTA 評估
 ```bash
-cd GTA
 # 依照 GTA README.md 的教學進行模型評估
 ```
 
