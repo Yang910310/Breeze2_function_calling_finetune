@@ -11,11 +11,9 @@ client = OpenAI(
     api_key=os.environ.get("OPENAI_API_KEY"),
 )
 
-
-
 # 讀取 JSON 檔
-data_path = r"D:\research_information\Breeze2_FC_finetune\data\english\training\atomic_tasks.json"
-output_path = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_functions.json"
+data_path = r"D:\research_information\github\Breeze2_function_calling_finetune\atomic_tasks.json"
+output_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_functions.json"
 
 # 初始化輸出列表
 original_tasks = []
@@ -26,14 +24,11 @@ if os.path.exists(data_path):
     with open(data_path, "r", encoding="utf-8") as json_file:
         original_tasks = json.load(json_file)
 else:
-    print("atomic_task.json中沒有資料。")
+    print("json 檔案中沒有資料。")
     exit()
 
-# 取得目前的最大 index
-start_index = 1499
 
-
-for i, entry in enumerate(original_tasks[1500:3000]):
+for i, entry in enumerate(original_tasks):
     try:
         # 確保資料中有 "atomic_task" 欄位
         if isinstance(entry, dict) and "atomic_task" in entry:
@@ -68,16 +63,10 @@ for i, entry in enumerate(original_tasks[1500:3000]):
                 "align with or constitute a part of the input for the second\n"
                 "function, irrespective of varying parameter terminologies.\n"
                 "## Requirements for the number of functions:\n"
-                "1. The task may need zero, 0~5 functions to\n"
-                "complete it.\n"
-                "2. If the task is about logic, comparision, set operation or\n"
-                "calculation, which can be solved by large language models,\n"
-                "then no function is needed for this task, just leave the\n"
-                "func_list of this task empty.\n"
+                "1. The task may need 1~5 functions to complete it.\n"
                 "## task:\n"
                 f"{task}\n"
                 "## Response format:\n"
-                "'''json\n"
                 "[\n"
                 "  {\n"
                 "    \"task\": \"a task from the input\",\n"
@@ -108,7 +97,6 @@ for i, entry in enumerate(original_tasks[1500:3000]):
                 "    ]\n"
                 "  }\n"
                 "]\n"
-                "'''\n"
                 "## Please respond following the format above:\n"
 
             )
@@ -122,11 +110,10 @@ for i, entry in enumerate(original_tasks[1500:3000]):
 
             # 輸出結果可依需求儲存或更新 all_outputs
             output_data = {
-                "index": start_index,
+                "index": i,
                 "atomic_task": response.output_text
             }
             all_outputs.append(output_data)
-            start_index += 1  # 遞增 index
             
             print(f"atomic task for entry {i}: {response.output_text}")
 
@@ -139,4 +126,4 @@ for i, entry in enumerate(original_tasks[1500:3000]):
 with open(output_path, "a", encoding="utf-8") as json_file:
     json.dump(all_outputs, json_file, ensure_ascii=False, indent=4)
 
-print("所有生成結果已儲存至 en_functions.json")
+print("所有生成結果已儲存至路徑 output_path")

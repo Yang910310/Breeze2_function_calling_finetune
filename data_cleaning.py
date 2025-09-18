@@ -5,7 +5,54 @@ import tiktoken
 from transformers import AutoTokenizer
 
 
-file_path = r"D:\research_information\Breeze2_FC_finetune\en_final_dataset.jsonl"
+#將 raw text 轉換為 chatml 格式
+def convert_raw_text_to_chatml_format(text: str) -> dict:
+    messages = []
+
+    # 提取所有標記段落（避免 Tool 吃進 Assistant）
+    pattern = r"(System:|User:|Assistant:|Tool:)\n(.*?)(?=(?:System:|User:|Assistant:|Tool:)|\Z)"
+    blocks = re.findall(pattern, text, re.DOTALL)
+
+    for role_tag, content in blocks:
+        role_tag = role_tag.strip()
+        content = content.strip()
+
+        if role_tag == "System:":
+            messages.append({"role": "system", "content": content})
+        elif role_tag == "User:":
+            # 抽出 <human> 裡的內容
+            match = re.search(r"<human>(.*?)</human>", content, re.DOTALL)
+            content = match.group(1).strip() if match else content
+            messages.append({"role": "user", "content": content})
+        elif role_tag == "Assistant:":
+            messages.append({"role": "assistant", "content": content})
+        elif role_tag == "Tool:":
+            messages.append({"role": "ipython", "content": content})
+
+    return {"messages": messages}
+
+
+if __name__ == "__main__":
+    input_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_final_dataset.jsonl"
+    output_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_final.jsonl"
+
+    with open(input_path, "r", encoding="utf-8") as f:
+        raw = [json.loads(line) for line in f if line.strip()]
+
+    with open(output_path, "w", encoding="utf-8") as f_out:
+        for item in raw:
+            try:
+                chatml_data = convert_raw_text_to_chatml_format(item["text"])
+                json.dump(chatml_data, f_out, ensure_ascii=False)
+                f_out.write("\n")
+            except Exception as e:
+                print(f"❌ Error processing item: {e}")
+
+    print(f"✅ 已轉換完成，輸出至：{output_path}")
+
+
+
+# file_path = r"D:\research_information\Breeze2_FC_finetune\en_final_dataset.jsonl"
 # if os.path.exists(file_path):
 #     with open(file_path, "r", encoding="utf-8") as json_file:
 #         all_outputs = json.load(json_file)
@@ -56,7 +103,6 @@ file_path = r"D:\research_information\Breeze2_FC_finetune\en_final_dataset.jsonl
 
 
 
-
 # # 清理 func_call 標籤
 # # 將 <func_call> 替換為 <|python_tag|>，並刪除 </func_call>
 # def clean_func_call_tags(json_data):
@@ -95,97 +141,45 @@ file_path = r"D:\research_information\Breeze2_FC_finetune\en_final_dataset.jsonl
 
 
 
+# # 使用 tiktoken 計算每筆資料 token 數量，並將超過限制(max_tokens)的資料移除
+# # 用途: 某些生成資料過大，會導致後續 fine-tune 時發生 OOM 錯誤，因此先過濾掉過大的資料
 
+# tokenizer = AutoTokenizer.from_pretrained("PenutChen/Llama-Breeze2-3B-Instruct-Text")
 
+# input_file = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_final.jsonl"
+# output_file = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_final_filtered.jsonl"
+# max_tokens = 2048
 
-# def convert_raw_text_to_breeze2_format(text: str) -> dict:
-#     messages = []
+# def count_tokens(text):
+#     return len(tokenizer.encode(text))
 
-#     # 提取所有標記段落（避免 Tool 吃進 Assistant）
-#     pattern = r"(System:|User:|Assistant:|Tool:)\n(.*?)(?=(?:System:|User:|Assistant:|Tool:)|\Z)"
-#     blocks = re.findall(pattern, text, re.DOTALL)
+# def count_jsonl_tokens(obj):
+#     # 假設每筆資料有 "messages" 欄位
+#     if "messages" in obj:
+#         total = 0
+#         for msg in obj["messages"]:
+#             if "content" in msg:
+#                 total += count_tokens(msg["content"])
+#         return total
+#     else:
+#         return count_tokens(json.dumps(obj, ensure_ascii=False))
 
-#     for role_tag, content in blocks:
-#         role_tag = role_tag.strip()
-#         content = content.strip()
-
-#         if role_tag == "System:":
-#             messages.append({"role": "system", "content": content})
-#         elif role_tag == "User:":
-#             # 抽出 <human> 裡的內容
-#             match = re.search(r"<human>(.*?)</human>", content, re.DOTALL)
-#             content = match.group(1).strip() if match else content
-#             messages.append({"role": "user", "content": content})
-#         elif role_tag == "Assistant:":
-#             messages.append({"role": "assistant", "content": content})
-#         elif role_tag == "Tool:":
-#             messages.append({"role": "ipython", "content": content})
-
-#     return {"messages": messages}
-
-
-# if __name__ == "__main__":
-#     input_path = r"D:\research_information\Breeze2_FC_finetune\output.jsonl"
-#     output_path = "en_final.jsonl"
-
-#     with open(input_path, "r", encoding="utf-8") as f:
-#         raw = json.load(f)
-
-#     with open(output_path, "w", encoding="utf-8") as f_out:
-#         for item in raw:
-#             try:
-#                 chatml_data = convert_raw_text_to_breeze2_format(item["text"])
-#                 json.dump(chatml_data, f_out, ensure_ascii=False)
-#                 f_out.write("\n")
-#             except Exception as e:
-#                 print(f"❌ Error processing item: {e}")
-
-#     print(f"✅ 已轉換完成，輸出至：{output_path}")
-
-
-
-
-
-
-
-# 使用 tiktoken 計算每筆資料 token 數量
-
-tokenizer = AutoTokenizer.from_pretrained("PenutChen/Llama-Breeze2-3B-Instruct-Text")
-
-input_file = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_final.jsonl"
-output_file = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_final_filtered.jsonl"
-max_tokens = 2048
-
-def count_tokens(text):
-    return len(tokenizer.encode(text))
-
-def count_jsonl_tokens(obj):
-    # 假設每筆資料有 "messages" 欄位
-    if "messages" in obj:
-        total = 0
-        for msg in obj["messages"]:
-            if "content" in msg:
-                total += count_tokens(msg["content"])
-        return total
-    else:
-        return count_tokens(json.dumps(obj, ensure_ascii=False))
-
-with open(input_file, "r", encoding="utf-8") as fin, \
-     open(output_file, "w", encoding="utf-8") as fout:
-    kept, dropped = 0, 0
-    for line in fin:
-        line = line.strip()
-        if not line:
-            continue
-        try:
-            obj = json.loads(line)
-        except Exception as e:
-            print("JSON parse error:", e)
-            continue
-        tokens = count_jsonl_tokens(obj)
-        if tokens <= max_tokens:
-            fout.write(json.dumps(obj, ensure_ascii=False) + "\n")
-            kept += 1
-        else:
-            dropped += 1
-    print(f"Kept: {kept}, Dropped: {dropped}")
+# with open(input_file, "r", encoding="utf-8") as fin, \
+#      open(output_file, "w", encoding="utf-8") as fout:
+#     kept, dropped = 0, 0
+#     for line in fin:
+#         line = line.strip()
+#         if not line:
+#             continue
+#         try:
+#             obj = json.loads(line)
+#         except Exception as e:
+#             print("JSON parse error:", e)
+#             continue
+#         tokens = count_jsonl_tokens(obj)
+#         if tokens <= max_tokens:
+#             fout.write(json.dumps(obj, ensure_ascii=False) + "\n")
+#             kept += 1
+#         else:
+#             dropped += 1
+#     print(f"Kept: {kept}, Dropped: {dropped}")

@@ -5,6 +5,9 @@ torch>=2.0.0
 transformers>=4.40.0
 datasets>=2.19.0
 accelerate>=0.30.0
+dotenv
+openai
+tiktoken
 
 # LoRA (Parameter-Efficient Fine-Tuning)
 peft>=0.11.0

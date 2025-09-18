@@ -11,13 +11,13 @@
 1. **生成與清理訓練資料**  
    - `original_scenarios.py`：準備原始情境資料  
    - `atomic_task_construct.py`：將情境拆解為原子任務  
-   - `function_generating.py`：為原子任務產生對應函式  
+   - `function_generating.py`：為原子任務產生對應函數  
    - `trajectory_generating.py`：產生互動軌跡資料  
    - `data_cleaning.py`：資料清理與格式化，輸出 JSONL 格式（每筆資料含有 `messages` 欄位）
 
 2. **微調模型**  
    - `fine_tune.py`：針對 Llama-Breeze2-3B-Instruct-Text 進行 LoRA 微調  
-   - 輸出結果會存放於 `lora_models/`
+   - 輸出結果會儲存在 `lora_models/`
 
 3. **模型評估 (GTA)**  
    - 使用 `GTA/` 中的工具與資料，進行 function calling 能力的評估  
@@ -83,9 +83,9 @@ pip install -r requirements.txt
 ## 🚀 使用方式
 
 ### 1. 建立資料集
-首先將OpenAI API key 增加至 .env 檔案當中
+首先將您的 OpenAI API key 增加至 .env 檔案當中
 
-接著依序執行以下腳本產生清理後的 JSONL 資料(請記得修改檔案中的路徑)：
+接著依序執行以下程式產生 JSONL 訓練資料(請記得修改程式中的檔案路徑及相關參數)：
 ```bash
 python original_scenarios.py
 python atomic_task_construct.py

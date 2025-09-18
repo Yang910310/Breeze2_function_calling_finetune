@@ -24,8 +24,8 @@ import matplotlib.pyplot as plt
 # 可修改的參數
 # -------------------------
 model_name = 'PenutChen/Llama-Breeze2-3B-Instruct-Text'
-train_jsonl_path = r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_final_filtered.jsonl"
-output_dir = r"D:\research_information\Breeze2_FC_finetune\lora_models\lora_02"
+train_jsonl_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_final.jsonl"
+output_dir = r"D:\research_information\github\Breeze2_FC_finetune\lora_models\lora_03"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 epochs = 1
@@ -72,7 +72,7 @@ if hasattr(model.config, "output_hidden_states"):
     model.config.output_hidden_states = False
 if hasattr(model.config, "output_attentions"):
     model.config.output_attentions = False
-# # 可用時啟用高效注意力
+# # 若硬體允許，可啟用flash_attention_2
 # try:
 #     model.config.attn_implementation = "flash_attention_2"
 # except Exception:

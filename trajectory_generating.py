@@ -12,15 +12,15 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # ==== 路徑設定 ====
-# TASK_PATH = Path(r"D:\research_information\Breeze2_FC_finetune\data\english\training\atomic_tasks.json")
-FUNC_PATH = Path(r"D:\research_information\Breeze2_FC_finetune\data\english\training\en_functions.json")
-OUTPUT_PATH = Path("en_final_dataset.jsonl")
+# TASK_PATH = r"D:\research_information\Breeze2_FC_finetune\data\english\training\atomic_tasks.json"
+func_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_functions.json"
+output_path = r"D:\research_information\github\Breeze2_function_calling_finetune\en_final_dataset.jsonl"
 
 # ==== 載入資料 ====
 # with open(TASK_PATH, encoding="utf-8") as f:
 #     atomic_tasks = json.load(f)
 
-with open(FUNC_PATH, encoding="utf-8") as f:
+with open(func_path, encoding="utf-8") as f:
     function_mappings = json.load(f)
 
 # 轉換 function 映射為 dict
@@ -54,11 +54,10 @@ def chat(system_prompt: str, messages: list[dict]) -> str:
     return response.choices[0].message.content
 
 
-# ==== 主程序 ====
-# all_records = []
+# ==== 主程式 ====
 early_stopped_tasks = []  # 紀錄被中止的任務
 
-for task in all_tasks[860:2117]: 
+for task in all_tasks: 
     # if task_item["index"] != 0:
     #     continue
     all_records = []
@@ -124,11 +123,10 @@ for task in all_tasks[860:2117]:
         "**Function Call**: Name and arguments of the function call. The\n"
         "function name must be same as its name in above function list,\n"
         "and the arguments must obey the format required by the function.\n"
-        "Enclose the function call within the \"<func_call>\" tag.\n"
         "If possible, you can call multiple functions in parallel,\n"
         "be sure the functions called parallelly are independent of each other.\n"
         "Prefix function calls with:\n"
-        "- <|use_tool|> if calling normal functions\n"
+        "- <|use_tool|><|python_tag|> if calling normal functions\n"
         "\n"
         "---\n"
         "### Example 1 (regular function call):\n"
@@ -136,18 +134,18 @@ for task in all_tasks[860:2117]:
         "<thought> Based on user’s request, we need to find the greatest\n"
         "common divisor of these two numbers. We can use the function\n"
         "’find_greatest_common_divisor’ to solve this problem. </thought>\n"
-        "<|use_tool|><func_call>[\n"
+        "<|use_tool|><|python_tag|>[\n"
         "{\n"
         "  \"name\": \"find_greatest_common_divisor\",\n"
         "  \"arguments\": {\"num1\": 15, \"num2\": 25}\n"
         "}\n"
-        "]</func_call>\n"
+        "]\n"
         "\n"
         "---\n"
         "### Example 2 (parallel function call):\n"
         "<observation> User wants to know the weather in two cities - New York and London. </observation>\n"
         "<thought> We can use the function ’get_weather’ to find the weather in both cities. </thought>\n"
-        "<|use_tool|><func_call>[\n"
+        "<|use_tool|><|python_tag|>[\n"
         "{\n"
         "  \"name\": \"get_weather\",\n"
         "  \"arguments\": {\"city\": \"New York\"}\n"
@@ -156,7 +154,7 @@ for task in all_tasks[860:2117]:
         "  \"name\": \"get_weather\",\n"
         "  \"arguments\": {\"city\": \"London\"}\n"
         "}\n"
-        "]</func_call>\n"
+        "]\n"
         "\n"
         "---\n"
         "### Example 3 (final answer without calling any function):\n"
@@ -206,9 +204,9 @@ for task in all_tasks[860:2117]:
             print("✅ 任務已完成，Assistant 回傳 final_answer。")
             break
 
-        match = re.search(r"<func_call>(.*?)</func_call>", assistant_msg, re.DOTALL)
+        match = re.search(r"<\|use_tool\|><\|python_tag\|>([\s\S]*?)(?=$)", assistant_msg)
         if not match:
-            print("❌ 無效 <func_call> 區塊")
+            print("❌ 無效 <|use_tool|> 區塊")
             break
 
         try:
@@ -280,13 +278,13 @@ for task in all_tasks[860:2117]:
     if 2 <= assistant_turn_count < 4:
         all_records.append({"text": full_text.strip()})
     # ==== 輸出 JSONL ====
-    with open(OUTPUT_PATH, "a", encoding="utf-8") as f:
+    with open(output_path, "a", encoding="utf-8") as f:
         for record in all_records:
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
 
 # # ==== 輸出 JSONL ====
-# with open(OUTPUT_PATH, "a", encoding="utf-8") as f:
+# with open(output_path, "a", encoding="utf-8") as f:
 #     for record in all_records:
 #         f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
@@ -296,4 +294,4 @@ if early_stopped_tasks:
     for t in early_stopped_tasks:
         print(f"- {t[:80]}...")
 
-print(f"\n✅ 完成！共產出 {len(all_records)} 筆資料 -> {OUTPUT_PATH}")
+print(f"\n✅ 完成！共產出 {len(all_records)} 筆資料 -> {output_path}")
