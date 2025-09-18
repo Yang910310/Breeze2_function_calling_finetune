@@ -1,6 +1,6 @@
 # Breeze2_FC_finetune
 
-本專案的目標是針對 **[PenutChen/Llama-Breeze2-3B-Instruct-Text](https://huggingface.co/PenutChen/Llama-Breeze2-3B-Instruct-Text)** 模型進行 **LoRA 微調 (Fine-tuning)**，並使用 **GTA (General Tool-augmented benchmark for function calling)** 進行評估。  
+本專案的目標是針對 **[PenutChen/Llama-Breeze2-3B-Instruct-Text](https://huggingface.co/PenutChen/Llama-Breeze2-3B-Instruct-Text)** 模型進行 **LoRA 微調 (Fine-tuning)**，微調目的是增加模型的函數調用能力，最後使用 **GTA (General Tool-augmented benchmark for function calling)** 進行模型能力評估。  
 
 ---
 
