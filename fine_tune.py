@@ -32,6 +32,15 @@ epochs = 1
 batch_size = 1
 learning_rate = 2e-5
 
+# LoRA 參數
+peft_config = LoraConfig(
+    r=8,
+    lora_alpha=16,
+    lora_dropout=0.1,
+    bias="none",
+    target_modules=["q_proj", "k_proj", "v_proj"]
+)
+
 seed = 42
 
 # -------------------------
@@ -204,13 +213,7 @@ train_dataloader = DataLoader(
 # -------------------------
 # LoRA 設定
 # -------------------------
-peft_config = LoraConfig(
-    r=8,
-    lora_alpha=16,
-    lora_dropout=0.1,
-    bias="none",
-    target_modules=["q_proj", "k_proj", "v_proj"]
-)
+
 model = get_peft_model(model, peft_config)
 model.print_trainable_parameters()
 
